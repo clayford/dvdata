@@ -3,7 +3,7 @@
 \docType{data}
 \name{acid.copper.pattern.plating}
 \alias{acid.copper.pattern.plating}
-\title{Acid copper pattern plating experiment.}
+\title{Acid copper pattern plating experiment}
 \format{A data frame with 10 rows and 5 variables:
 \describe{
   \item{xA}{Anode-cathode separation (in.) - uncoded}
@@ -20,7 +20,7 @@ acid.copper.pattern.plating
 }
 \description{
 Experiment to minimize coating thinkness variation of an acid copper-plating
-process. Chapter 16 (p. 558)
+process. (Chapter 16)
 }
 \keyword{datasets}
 
