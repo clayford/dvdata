@@ -1,0 +1,18 @@
+{
+    "contents" : "#' Acid copper pattern plating experiment.\n#'\n#' Experiment to minimize coating thinkness variation of an acid copper-plating\n#' process. Chapter 16 (p. 558)\n#' @format A data frame with 10 rows and 5 variables:\n#' \\describe{\n#'   \\item{xA}{Anode-cathode separation (in.) - uncoded}\n#'   \\item{xB}{Current Density (asf) - uncoded}\n#'   \\item{s}{standard deviation}\n#'   \\item{zA}{Anode-cathode separation (in.) - coded}\n#'   \\item{zB}{Current Density (asf) - coded}\n#' }\n#' @source \\url{http://www.wright.edu/~dan.voss/bookdata/data.html}\n#'\n\"acid.copper.pattern.plating\"\n",
+    "created" : 1438436306332.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3022772567",
+    "id" : "30B91512",
+    "lastKnownWriteTime" : 1438438309,
+    "path" : "~/Dropbox/dvdata/R/data.R",
+    "project_path" : "R/data.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

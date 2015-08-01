@@ -1,0 +1,13 @@
+Package: dvdata
+Type: Package
+Title: Data Files for Design and Analysis of Experiments (Dean & Voss)
+Version: 0.0.0.9000
+Date: 2015-07-31
+Authors@R: 'Clay Ford <joe.clayton.ford@gmail.com> [aut,cre]'
+Description:
+    Data files and functions for Design and Analysis of Experiments,
+    by Angela Dean and Dan Voss, Springer-Verlag, New York, Inc.
+    (1999)
+License: CC0
+LazyData: true
+URL: http://www.wright.edu/~dan.voss/bookdata/data.html
