@@ -559,3 +559,108 @@
 "exercise"
 
 
+#' Field
+#'
+#' Results of a field experiment on the yield of beans using various types of
+#' fertilizer. (Chapter 13)
+#' @format A data frame with 16 rows and 7 variables:
+#' \describe{
+#'  \item{BLK}{block of land}
+#'  \item{A}{amount of dung spread per acre - 2 levels (0 or 10 tons)}
+#'  \item{B}{amount of nitrochalk - 2 levels (0 or 45 lb)}
+#'  \item{C}{amount of superphosphate - 2 levels (0 and 67 lb)}
+#'  \item{D}{amount of muriate of potash - 2 levels (0 and 112 lb)}
+#'  \item{Y}{yield of beans}
+#'  \item{TC}{treatment combination - 2^4 = 16 levels}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"field"
+
+#' Film viscosity
+#'
+#' An experiment involving viscosity of film-forming solution. (Chapter 16)
+#' @format A data frame with 18 rows and 8 variables:
+#' \describe{
+#'  \item{POINT}{design point}
+#'  \item{zP}{coded factor levels of protein concentration}
+#'  \item{xP}{protein concentration}
+#'  \item{zH}{coded factor levels of pH}
+#'  \item{xH}{pH}
+#'  \item{zT}{coded factor levels for temperture (Celsius)}
+#'  \item{xT}{temperture (Celsius)}
+#'  \item{y}{apparent viscosity (mPa)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"film.viscosity"
+
+#' Fishing line
+#'
+#' An experiment to compare the strength of two brands of fishing line exposed to two
+#' different levels of stress. (Chapter 19)
+#' @format A data frame with 16 rows and 4 variables:
+#' \describe{
+#'  \item{REEL}{the whole plots}
+#'  \item{BRAND}{brand of fishing line - 2 levels}
+#'  \item{WEIGHT}{stress levels - 2 levels}
+#'  \item{Y}{weight of water that broke line (lb)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"fishing.line"
+
+#' Flour experiment number 1
+#'
+#' An experiment to examine the effect of 6 ingredients on average yield of flour.
+#' (Chapter 15, Table 15.51)
+#' @format A data frame with 64 rows and 8 variables:
+#'\describe{
+#'  \item{A}{ingredient A - 2 levels}
+#'  \item{B}{ingredient B - 2 levels}
+#'  \item{C}{ingredient C - 2 levels}
+#'  \item{D}{ingredient D - 2 levels}
+#'  \item{E}{ingredient E - 2 levels}
+#'  \item{F}{ingredient F - 2 levels}
+#'  \item{DAY}{noise combinations - 4 levels}
+#'  \item{Y}{yield of flour}
+#'}
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"flour.expt1"
+
+#' Flour experiment number 3
+#'
+#' An experiment to find flour that is least variable under different levels of noise
+#' variables. (Chapter 15, Table 15.17)
+#' @format A data frame with 32 rows and 10 variables:
+#'\describe{
+#'  \item{BLK}{day 1 or 2}
+#'  \item{TC}{treatment combinations - 32 levels}
+#'  \item{Y}{flour yield}
+#'  \item{A1}{pseudofactor 1 of 4-level flour formulation factor}
+#'  \item{A2}{pseudofactor 2 of 4-level flour formulation factor}
+#'  \item{A1A2}{pseudofactor interaction}
+#'  \item{N}{amount of yeast - 2 levels (low or high)}
+#'  \item{S}{proof time - 2 levels (short or long)}
+#'  \item{Q}{degree of mixing and moulding - 2 levels (under or over)}
+#'  \item{T}{dough time delay - 2 levels (short or long)}
+#'}
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"flour.expt3"
+
+#' Flour production
+#'
+#' An experiment to find effect of ingredients on bread loaf volume. (Chapter 16,
+#' Table 16.12)
+#' @format A data frame with 16 rows and 9 variables:
+#' \describe{
+#'  \item{zB}{coded design factor B}
+#'  \item{zC}{coded design factor C}
+#'  \item{zD}{coded design factor D}
+#'  \item{y1}{mean volume of 3 loaves on first half-day}
+#'  \item{y2}{mean volume of 3 loaves on second half-day}
+#'  \item{y3}{mean volume of 3 loaves on third half-day}
+#'  \item{y4}{mean volume of 3 loaves on fourth half-day}
+#'  \item{mean}{mean of y1-y4}
+#'  \item{logs}{log base 10 of \code{mean}}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"flour.production"
+
