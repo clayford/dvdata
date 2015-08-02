@@ -127,3 +127,56 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "balloon"
 
+#' Banana
+#'
+#' An experiment to determine if lighting conditions and storage method affect
+#' percentage of blackened skin on bananas (Chapter 10)
+#' @format A data frame with 48 rows and 4 variables:
+#' \describe{
+#'  \item{LIGHT}{lighting conditions - 2 levels}
+#'  \item{STORE}{storage method - 2 levels}
+#'  \item{BLOCK}{the experimenter who examined the bananas - 3 levels}
+#'  \item{Y}{percentage of blackened skin}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"banana"
+
+#' Battery
+#'
+#' An experiment to determine what type of nonrechargeable battery was most
+#' economical. (Chapter 2)
+#' @format A data frame with 16 rows and 5 variables:
+#' \describe{
+#'  \item{TYPEBAT}{type of battery - four levels}
+#'  \item{LIFE}{minutes of battery life}
+#'  \item{UCOST}{unit cost in dollars - half of the cost of a two-pack of batteries}
+#'  \item{LPUC}{lifetime per unit cost measured in minites per dollar}
+#'  \item{ORDER}{time order}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"battery"
+
+#' Bean soaking
+#'
+#' An experiment to compare the effects of 5 different soaking times on the growth
+#' rate of mung bean seeds. (Chapter 4)
+#' @format A data frame with 68 rows and 2 variables.
+#' \describe{
+#'  \item{TIME}{soaking times - 5 levels}
+#'  \item{LENGTH}{length of a shoot 48 hours after soaking (mm)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"bean.soaking"
+
+#' Beef
+#'
+#' An experiment to compare the effects of cold storage on the tenderness of beef
+#' roasts.
+#' @format A data frame with 30 rows and 3 variables:
+#' \describe{
+#'  \item{BLOCK}{blocks}
+#'  \item{TRTMT}{periods of storage - six levels (0,1,2,4,9, and 18 days)}
+#'  \item{Y}{tenderness score; max score is 40}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"beef"

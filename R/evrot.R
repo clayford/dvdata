@@ -14,6 +14,7 @@
 #' d <- rnorm(4*10, mean = rep(1:4,each=10), sd=1)
 #' evrot(resp = d, trt = g)
 #'
+#'with(balloon, evrot(TIME, COLOR))
 evrot <- function(resp, trt){
   tvars <- tapply(resp,trt,var)
   max(tvars)/min(tvars)

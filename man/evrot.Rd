@@ -25,5 +25,7 @@ this ratio exceeds three, the assumption of constant variance may be violated.
 g <- gl(n = 4,k = 10)
 d <- rnorm(4*10, mean = rep(1:4,each=10), sd=1)
 evrot(resp = d, trt = g)
+
+with(balloon, evrot(TIME, COLOR))
 }
 
