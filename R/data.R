@@ -171,7 +171,7 @@
 #' Beef
 #'
 #' An experiment to compare the effects of cold storage on the tenderness of beef
-#' roasts.
+#' roasts. (Chapter 11)
 #' @format A data frame with 30 rows and 3 variables:
 #' \describe{
 #'  \item{BLOCK}{blocks}
@@ -180,3 +180,58 @@
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "beef"
+
+#' Bicycle
+#'
+#' An experiment to compare crank rates required to keep a bicycle at certain
+#' speeds, when the bicycle was in 12th gear on flat ground.(Chapter 5)
+#' @format A data frame with 15 rows and 2 variables:
+#' \describe{
+#'  \item{TRT}{speeds - 5 levels (5, 10, 15, 20 and 25 mph)}
+#'  \item{RATE}{crank rate}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"bicycle"
+
+#' Biscuits
+#'
+#' An experiment to study how to make fluffy biscuits. (Chapter 10)
+#' @format A data frame with 72 rows and 3 variables:
+#' \describe{
+#'  \item{BLOCK}{oven runs}
+#'  \item{TC}{treatment combination - 9 levels; height of uncooked biscuit (0.25, 0.5,
+#'  0.75 in) x kneading time (7, 14, 21 times)}
+#'  \item{Y}{percentage of original height}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"biscuit"
+
+#' Bleach
+#'
+#' An experiment to study the effect of different bleach concentrations and
+#' the effect of stain type on speed of stain removal from a piece of cloth.
+#' (Chapter 6)
+#' @format A data frame with 45 rows and 4 variables:
+#' \describe{
+#'  \item{CONC}{bleach concentration - 3 levels}
+#'  \item{STAIN}{stain type - 3 levels}
+#'  \item{SPEED}{time for stain removal (in seconds)}
+#'  \item{ORDER}{run order}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"bleach"
+
+#' Buttermilk biscuits
+#'
+#' An experiment to find out which brands of refrigerated buttermilk biscuit
+#' give rise to the fluffiest biscuits. (Chapter 17)
+#' @format A data frame with 30 rows and 4 variables:
+#' \describe{
+#'  \item{BLOCK}{block level}
+#'  \item{POSN}{position in oven - 6 levels}
+#'  \item{BRAND}{brand of biscuit - 3 levels}
+#'  \item{CHANGE}{percentage change in biscuit height}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"buttermilk.biscuit"
+

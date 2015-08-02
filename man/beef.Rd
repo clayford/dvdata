@@ -18,7 +18,7 @@ beef
 }
 \description{
 An experiment to compare the effects of cold storage on the tenderness of beef
-roasts.
+roasts. (Chapter 11)
 }
 \keyword{datasets}
 
