@@ -235,3 +235,96 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "buttermilk.biscuit"
 
+#' Candle
+#'
+#' An experiment to determine whether different colored cake candles burn at different
+#' speeds. (Chapter 10)
+#' @format A data frame with 64 rows and 3 variables:
+#' \describe{
+#'  \item{BLOCK}{experimenter}
+#'  \item{COLOR}{color of candle - 4 levels (red, white, blue, yellow)}
+#'  \item{TIME}{burning times in seconds}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"candle"
+
+#' Catalyst
+#'
+#' An experiment that investigates the effect of four reagents and three catalysts
+#' on production rate in a catalyst plant. (Chapter 5)
+#' @format A data frame with 24 rows and 3 variables:
+#' \describe{
+#'  \item{ORDER}{time order}
+#'  \item{TREAT}{treatment combinations - 12 levels}
+#'  \item{YIELD}{production rate}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @examples
+#' names(catalyst) <- tolower(names(catalyst))
+#' catalyst$treat <- factor(catalyst$treat)
+#' plot(yield ~ treat, data=catalyst)
+#' qqnorm(catalyst$yield)
+#' qqline(catalyst$yield)
+#' with(catalyst, evrot(resp = yield, trt = treat))
+#' with(catalyst, tapply(yield, treat, var))
+"catalyst"
+
+#' Cigarette
+#'
+#' An experiment to determine factors that affect the length of time that a
+#' cigarette will burn. (Chapter 19)
+#' @format A data frame with 60 rows and 6 variables:
+#'\describe{
+#'  \item{order}{time order}
+#'  \item{wp}{whole plot}
+#'  \item{tar}{tar  - 2 levels}
+#'  \item{brand}{brand - 2 levels}
+#'  \item{age}{age - 3 levels}
+#'  \item{time}{burning time in seconds}
+#'}
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"cigarette"
+
+#' Clean wool
+#'
+#' An experiment to estimate the variability in "clean content" of bales of wool
+#' (Chapter 17)
+#' @format A data frame with 28 rows and 2 variables:
+#' \describe{
+#'  \item{bale}{bale - 7 levels}
+#'  \item{y}{clean content - percentage the weight of the clean wool is of the
+#'  original weight of the raw wool}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"clean.wool"
+
+#' Colorfastness
+#'
+#' An experiment to investigate the linear and quadratic effects of the number of
+#' washes on the color change of a denim fabric. (Chapter 10)
+#' @format A data frame with 180 rows and 3 variables:
+#' \describe{
+#'  \item{BLOCK}{experimenter}
+#'  \item{COLOR}{number of times of laundering}
+#'  \item{Y}{color change (continuous version of the Gray Scale for Color Change)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"colorfastness"
+
+#' Cotton spinning
+#'
+#' An experiment to investigate the way in which different degrees of twist (measured
+#' in turns per inch) affect the breakage rate of the roving, and to compare the
+#' ordinary flyer with the newly devised special flyer. (Chapter 2)
+#' @format A data frame with 78 rows and 5 variables:
+#' \describe{
+#'  \item{BLOCK}{a machine with a single operator}
+#'  \item{TC}{treatment combinations - 6 levels}
+#'  \item{FLYER}{type of flyer - 2 levels}
+#'  \item{TWIST}{degree of twist - 4 levels (1.63, 1.69, 1.78, 1.90)}
+#'  \item{BREAK}{number of breaks per 100 pounds of material}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"cotton.spinning"
+
+
