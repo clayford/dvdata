@@ -327,4 +327,150 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "cotton.spinning"
 
+#' Dairy Cow
+#'
+#' An experiment that studies the effect of three diets on the milk production
+#' of dairy cows.
+#' @format A data frame with 18 rows and 4 variables:
+#' \describe{
+#'  \item{COW}{cow identifier}
+#'  \item{PERIOD}{six-week period identifier}
+#'  \item{DIET}{type of diet - 3 levels (roughage, limited grain, full grain)}
+#'  \item{YIELD}{milk yield}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"dairy.cow"
 
+#' Decontamination (alpha particles)
+#'
+#' An experiment to explore the effect of four factors on the efficiency of a
+#' decontamination process for the removal of radioactive isotopes from liquid waste.
+#' (Chapter 13)
+#' @format A data frame with 32 rows and 6 variables:
+#' \describe{
+#'  \item{BLOCK}{day of the experiment}
+#'  \item{A}{amount of aluminum sulphate added to waste - 2 levels
+#'  (0.4 and 2.5 g per liter)}
+#'  \item{B}{amount of barium chloride added to waste - 2 levels
+#'  (0.4 and 2,5 g per liter)}
+#'  \item{C}{amount of carbon added to waste - 2 levels
+#'  (0.08 and 0.4 g per liter)}
+#'  \item{D}{final pH of waste - 2 levels (6 and 10)}
+#'  \item{COUNT}{counts per minute per milliliter of alpha particles}
+#'  }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"decontam.alpha"
+
+#' Decontamination (beta particles)
+#'
+#' An experiment to explore the effect of four factors on the efficiency of a
+#' decontamination process for the removal of radioactive isotopes from liquid waste.
+#' (Chapter 13)
+#' @format A data frame with 32 rows and 6 variables:
+#' \describe{
+#'  \item{BLOCK}{day of the experiment}
+#'  \item{A}{amount of aluminum sulphate added to waste - 2 levels
+#'  (0.4 and 2.5 g per liter)}
+#'  \item{B}{amount of barium chloride added to waste - 2 levels
+#'  (0.4 and 2,5 g per liter)}
+#'  \item{C}{amount of carbon added to waste - 2 levels
+#'  (0.08 and 0.4 g per liter)}
+#'  \item{D}{final pH of waste - 2 levels (6 and 10)}
+#'  \item{COUNT}{counts per minute per milliliter of beta particles}
+#'  }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"decontam.beta"
+
+#' Dessert
+#'
+#' An experiment to determine whether melting rate of a frozen dessert will be
+#' affected by the addition of salt and/or sugar. (Chapter 5)
+#' @format A data frame with 18 rows and 6 variables
+#' \describe{
+#'  \item{POSITION}{position on table during melting}
+#'  \item{TRTMT}{treatment combinations - 6 levels}
+#'  \item{PCTMELT}{percentage melting by weight}
+#'  \item{SALT}{amount of salt - 2 levels (1/8 and 1/4 tsp)}
+#'  \item{SUGAR}{amount of sugar - 3 levels (1/4, 1/2, and 3/4 cup)}
+#'  \item{FP}{position in freezer - 6 levels}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"dessert"
+
+#' Detergent
+#'
+#' An experiment to compare dishwashing detergent formulations. (Chapter 11)
+#' @format A data frame with 36 rows and 5 variables:
+#' \describe{
+#'  \item{BLOCK}{blocking factor - 12 levels}
+#'  \item{TRTMT}{treatment combination - 9 levels}
+#'  \item{Y}{number of plates washed in sink before detergent foam disappeared}
+#'  \item{BASE}{base detergent type - 3 levels}
+#'  \item{ADDITIVE}{parts of additive for base detergent - 4 levels}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"detergent"
+
+#' Drill advance
+#'
+#' A single replicate 2 x 2 x 2 experiment to study the effects of four treatment
+#' factors on the rate of advance of a small stone drill. (Chapter 7)
+#' @format A data frame with 16 rows and 6 variables:
+#' \describe{
+#'  \item{A}{load on the drill}
+#'  \item{B}{flow rate through the drill}
+#'  \item{C}{speed of rotation}
+#'  \item{D}{type of mud used in drilling}
+#'  \item{ADV}{measure of drill advance}
+#'  \item{LN_ADV}{log to base 10 of drill advance}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @examples
+#' apply(drill.advance[,1:4],2,table) # each factor observed at 2 levels
+#' # set A - D as factor class
+#' for(i in 1:4){
+#'   drill.advance[[i]] <- factor(drill.advance[[i]])
+#'   }
+#' aov1 <- aov(LN_ADV ~ A + B + C + D, data=drill.advance)
+#' summary(aov1)
+#' coef(aov1)
+#' op <- par(mfrow=c(2,2))
+#' for(i in LETTERS[1:4]){
+#'   plot(TukeyHSD(aov1, i))
+#' }
+#' par(op)
+"drill.advance"
+
+#' Drug
+#'
+#' An experiment to evaluate eight drugs for the treatment of arthritis. The
+#' experimental units were rats. (Chapter 19)
+#' @format A data frame with 64 rows and 7 variables
+#' \describe{
+#'  \item{BLOCK}{day of experiment}
+#'  \item{WP}{whole plot identifier}
+#'  \item{B}{dose level of drug - 2 levels}
+#'  \item{C}{time after injection that measurement was taken - 2 levels}
+#'  \item{A}{drug type - 8 levels}
+#'  \item{Y}{amount of fluid (in milliliters) measured in pleural cavity}
+#'  \item{LNY}{log of Y}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"drug"
+
+#' Dye
+#'
+#' An experiment that investigates three reactants in the manufacture of a cotton
+#' dyestuff.
+#' @format A data frame with 27 rows and 5 variables:
+#' \describe{
+#'  \item{BLK}{block identifier}
+#'  \item{A}{concentration of base material in the free water in the reaction mixture
+#'   - 3 levels}
+#'  \item{B}{volume of free water in the reaction mixture - 3 levels}
+#'  \item{C}{concentration of two inorganic materials in the free water in the
+#'  reaction mixture - 3 levels}
+#'  \item{Y}{volumes of dyestuff resulting from the chemical reactions}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"dye"
