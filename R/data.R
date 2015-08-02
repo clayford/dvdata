@@ -664,3 +664,22 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "flour.production"
 
+#' Fractionation
+#'
+#' An experiment that studies the effects of extraction time, solvent volume,
+#' ethanol concentration, and temperature on the yield and phosphatidylcholine
+#' enrichment (PCE) of deoiled rapeseed lecithin when fractionated with
+#' ethanol. (Chapter 16)
+#' @format A data frame with 25 rows and 7 variables:
+#' \describe{
+#'  \item{Run}{run order}
+#'  \item{z1}{extraction time - 2 levels}
+#'  \item{z2}{solvent volume - 2 levels}
+#'  \item{z3}{ethanol concentration - 2 levels}
+#'  \item{z4}{temperature - 2 levels}
+#'  \item{Yield}{purified lecithin yield}
+#'  \item{PCE}{phosphatidylcholine enrichment}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"fractionation"
+

@@ -16,3 +16,6 @@ for(i in 1:length(links)){
        compress = 'xz')
   print(cat(links[i],"\n",dfnames[i],"\n"))
 }
+
+# fix NA
+fractionation$PCE <- suppressWarnings(as.numeric(as.character(fractionation$PCE)))
