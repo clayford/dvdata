@@ -1,7 +1,7 @@
 # download and prepare data
 URL <- "http://www.wright.edu/~dan.voss/bookdata/data.html"
 web_page <- readLines(URL)
-flines <- web_page[grep(pattern = "\\.txt\">txt", web_page)]
+flines <- web_page[grep(pattern = "\\.txt\">", web_page)]
 
 # extract URL to text files
 library(qdapRegex)
@@ -14,5 +14,5 @@ for(i in 1:length(links)){
   assign(x = dfnames[i], value = read.table(file = links[i], header=TRUE))
   save(list=dfnames[i], file = paste0("data/",dfnames[i],".rdata"),
        compress = 'xz')
+  print(cat(links[i],"\n",dfnames[i],"\n"))
 }
-
