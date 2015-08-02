@@ -474,3 +474,88 @@
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "dye"
+
+#' Erythrocyte
+#'
+#' An experiment that investigates the effect of sulfamerazine on the number
+#' of erythrocites per cubic millimeter of blood in brown trout. (Chapter 18)
+#' @format A data frame with 80 rows and 4 variables
+#' \describe{
+#'  \item{SULF}{levels of sulfamerazine (0, 5, 10, 15)}
+#'  \item{TROUGH}{trough identifier}
+#'  \item{FISH}{fish indentifier}
+#'  \item{COUNT}{number of erythrocites per cubic millimeter of blood}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"erythrocyte"
+
+#' Evaporation
+#'
+#' An experiment on the evaporation rate of water under different conditions.
+#' (Chapter 7)
+#' @format A data frame with 16 rows and 4 variables
+#' \describe{
+#'  \item{A}{placement of water - cup (1) or plate (2)}
+#'  \item{B}{amount of salt added to water - 1 tsp (1) or 3 tsp (3)}
+#'  \item{C}{location in closet - windowsill (1) or floor (2)}
+#'  \item{Y}{amount of water evaporated (100 ml less the amount remaining)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @examples
+#' aggregate(Y ~ A + B + C, data=evaporation, mean)
+#' summary(aov(Y ~ A + B + C, data=evaporation))
+#' with(evaporation, interaction.plot(A,B,Y))
+"evaporation"
+
+#' Exam paper
+#'
+#' An experiment to see whether student average exam scores differ according to
+#' exam version and color paper. (Chapter 10)
+#' @format A data frame with 130 rows and 4 variables
+#' \describe{
+#'  \item{BLOCK}{block indentifier, accoding to the student's TA}
+#'  \item{A}{color of exam - 2 levels (yellow or green)}
+#'  \item{B}{version of exam - 2 levels}
+#'  \item{Y}{exam score}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @examples
+#' aggregate(Y ~ A*B, data=exam.paper, mean)
+#' boxplot(Y ~ A*B, data=exam.paper)
+#' summary(lm(Y ~ A*B, data=exam.paper))
+"exam.paper"
+
+#' Exercise bicycle
+#'
+#' An experiment to investigate effects of exercise on pulse rate. (Chapter 12)
+#' @format A data frame with 24 rows and 7 variables:
+#' \describe{
+#'  \item{DAY}{day of experiment}
+#'  \item{SUBJECT}{experimenter identifier}
+#'  \item{DURAT}{time duration of exercice - 2 levels (1 and 3 mins)}
+#'  \item{SPEED}{exercise speed - 2 levels (40 and 60 rpm)}
+#'  \item{PEDAL}{pedal type - 2 levels (foot pedal and hand bars)}
+#'  \item{PULSE}{time in seconds for 50 heart beats}
+#'  \item{TC}{treatment combinations - 8 levels}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"exercise.bicycle"
+
+#' Exercise
+#'
+#' An experiment to examine how pulse rate changes due to different exercise
+#' intensities and programs on a stationary bicycle. (Chapter 10)
+#' @format A data frame with 36 rows and 7 variables.
+#' \describe{
+#'  \item{BLOCK}{amount of exercise - 3 levels (infrequent, medium, frequent)}
+#'  \item{A}{program setting on bicycle - 2 levels (manual or hill)}
+#'  \item{B}{intensity setting - 2 levels (setting 3 or 5)}
+#'  \item{Y}{difference between post-exercise pulse and pre-exercise pulse}
+#'  \item{AGE}{age of subject}
+#'  \item{SEX}{gender of subject}
+#'  \item{ORDER}{time order}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"exercise"
+
+
