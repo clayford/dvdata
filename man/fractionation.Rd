@@ -24,7 +24,7 @@ fractionation
 An experiment that studies the effects of extraction time, solvent volume,
 ethanol concentration, and temperature on the yield and phosphatidylcholine
 enrichment (PCE) of deoiled rapeseed lecithin when fractionated with
-ethanol. (Chapter 16)
+ethanol. (Chapter 16, Table 16.25)
 }
 \keyword{datasets}
 

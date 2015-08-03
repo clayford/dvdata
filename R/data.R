@@ -669,7 +669,7 @@
 #' An experiment that studies the effects of extraction time, solvent volume,
 #' ethanol concentration, and temperature on the yield and phosphatidylcholine
 #' enrichment (PCE) of deoiled rapeseed lecithin when fractionated with
-#' ethanol. (Chapter 16)
+#' ethanol. (Chapter 16, Table 16.25)
 #' @format A data frame with 25 rows and 7 variables:
 #' \describe{
 #'  \item{Run}{run order}
@@ -682,4 +682,47 @@
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "fractionation"
+
+#' Galling
+#'
+#' An experiment to study the effects of speed, surface roughness, and axial load
+#' on the "galling" of a metal collar. (Chapter 7, Table 7.23)
+#' @format A data frame with 8 rows and 4 variables:
+#' \describe{
+#'  \item{A}{speed - 2 levels (1.5 and 5.0 rpm)}
+#'  \item{B}{surface roughness - 2 levels (1.9 and 3.8 microns)}
+#'  \item{C}{axial load - 2 levels (413.4 and 689 MPa)}
+#'  \item{Y}{"galling", or failure phenomenon of severe adhesive wear, on scale of
+#'  0 -10}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"galling"
+
+#' Gasoline pilot
+#'
+#' An experiment to determine whether the use of a higher-octane gasoline
+#' increases the miles per gallon achieved by an automobile. (Chapter 10,
+#' Table 10.19)
+#' @format A data frame with 9 rows and 4 variables:
+#' \describe{
+#'  \item{CAR}{car/driver block - 3 levels}
+#'  \item{OCTANE}{octane - 3 levels (87, 89, 93)}
+#'  \item{MPG}{miles per gallon}
+#'  \item{ORDER}{order of observation within block}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"gasoline.pilot"
+
+#' Golf Ball
+#'
+#' Effect of brand on distance traveled by golf balls. (Chapter 17, Table 17.19)
+#' @format A data frame with 36 rows and 3 variables:
+#' \describe{
+#'  \item{golfer}{person hitting ball - 2 levels}
+#'  \item{brand}{brand of golf ball - 3 levels}
+#'  \item{y}{distance traveled in yards}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"golf.ball"
+
 
