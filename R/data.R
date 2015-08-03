@@ -762,3 +762,98 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "heartlung.pump"
 
+#' Ice cream
+#'
+#' An experiment to determine if different flavors of ice cream melt at different
+#' speeds. (Chapter 17, Table 17.2)
+#' @format A data frame with 33 rows and 3 variables:
+#' \describe{
+#'  \item{FLAVOR}{flavor of ice cream - 3 levels}
+#'  \item{TIME}{melting time in seconds}
+#'  \ITEM{ORDER}{order of observation}
+#'  }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"icecream"
+
+#' Inclinometer mixed
+#'
+#' An experiment that seeks to improve the performance of an inclinometer,
+#' an instrument that records the angle of tilt of an object such as a crane jib.
+#' (Chapter 15, Table 15.31)
+#' @format A dataframe with 216 rows and 15 variables. (See section 15.7.1 for
+#' explanation of variables.)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"inclinometer.mixed"
+
+#' Inclinometer product
+#'
+#' An experiment that seeks to improve the performance of an inclinometer,
+#' an instrument that records the angle of tilt of an object such as a crane jib.
+#' (Chapter 15, Table 15.41)
+#' @format A dataframe with 27 rows and 17 variables. (See example 15.8.1 for
+#' explanation of variables.)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"inclinometer.product"
+
+#' Injecton molding
+#'
+#' An experiment on the effect of six factors on the shrinkage of a part
+#' produced by injection molding. (Chapter 15, Table 15.52)
+#' @format A data frame with 40 rows and 8 variables:
+#' \describe{
+#'  \item{A}{injection velocity - 2 levels}
+#'  \item{B}{cooling time - 2 levels}
+#'  \item{C}{barrel zone temperature - 2 levels}
+#'  \item{D}{mold temperature - 2 levels}
+#'  \item{E}{hold pressure - 2 levels}
+#'  \item{F}{back pressure - 2 levels}
+#'  \item{LNTH}{length - (deviation from 14.5) * 10^4}
+#'  \item{WDTH}{width - (deviation from 9.35) * 10^4}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"injection.molding"
+
+#' Ink
+#'
+#' An experiment to determine which type of cloth is most difficult to clean and
+#' whether a detergent plus stain remover was better than a detergent without
+#' stain remover. (Chapter 6, Table 6.22)
+#' @format A data frame with 12 rows and 4 variables:
+#' \describe{
+#'  \item{CLOTH}{cloth type - 3 levels}
+#'  \item{DETGNT}{detergent type - 2 levels}
+#'  \item{ORDER}{order of data collection}
+#'  \item{Y}{stain score, scale of 1 (black) - 19 (white)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"ink"
+
+#' Insole cushion
+#'
+#' An experiment to compare the effect on the force with which the foot hits the
+#' ground of a regular insole cushion and a heel cushion, available both as a
+#' brand name and a store name. (Chapter 10, Table 10.28)
+#' @format A data frame with 40 rows and 6 variables:
+#' \describe{
+#'  \item{ORDER}{order of collection}
+#'  \item{BLOCK}{right leg or left leg}
+#'  \item{TRTMT}{treatment combination - 4 levels}
+#'  \item{CUSHN}{cushion type - 2 levels (insole or heel)}
+#'  \item{BRAND}{brand type - 2 levels (brand name or store name)}
+#'  \item{FORCE}{response in Newtons}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"insole.cushion"
+
+#' Isomer
+#'
+#' An experiment to obtain information about the effect of pressure on percent
+#' conversion of methyl glucoside to monovinyl isomers. (Chapter 11, Table 11.22)
+#' @format A data frame with 30 rows and 3 variables:
+#' \describe{
+#'  \item{block}{block - 10 levels}
+#'  \item{pressure}{pressure - 5 levels (250, 325, 400, 475, and 550 psi)}
+#'  \item{y}{percent conversion}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"isomer"
