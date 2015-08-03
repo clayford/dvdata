@@ -914,5 +914,16 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "load.carrying"
 
-
+#' Machine head
 #'
+#' An experiment to study the differences in the strain readings of four different
+#' heads on each of five different machines. (Chapter 18, Table 18.3)
+#' @format A data frame with 80 rows and 3 variables:
+#' \describe{
+#'  \item{machine}{machine identifier}
+#'  \item{head}{head identifier (nested within machine)}
+#'  \item{y}{strain reading}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"machine.head"
+
