@@ -770,7 +770,7 @@
 #' \describe{
 #'  \item{FLAVOR}{flavor of ice cream - 3 levels}
 #'  \item{TIME}{melting time in seconds}
-#'  \ITEM{ORDER}{order of observation}
+#'  \item{ORDER}{order of observation}
 #'  }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "icecream"
@@ -857,3 +857,62 @@
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "isomer"
+
+#' Laser printer
+#'
+#' An experiment to determine which options speed up or slow down the printing
+#' of a reasonably detailed picture. (Chapter 15, Table 15.50)
+#' @format A dataframe with 16 rows and 16 variables. (See example pages 534 - 535
+#' for explanation of variables.)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"laser.printer"
+
+#' Length perception
+#'
+#' An experiment to explore subjects' ability to reproduce accurately a straight
+#' line of given length (5 cm). (Chapter 10, Table 10.23)
+#' @format A data frame with 84 rows and 5 variables:
+#' \describe{
+#'  \item{SUBJECT}{subject identifier}
+#'  \item{SHAPE}{shape type - 3 levels (square, circle, triangle)}
+#'  \item{AREA}{area type - 2 levels (16 and 9 in^2)}
+#'  \item{TC}{treatment combinations - 6 levels}
+#'  \item{Y}{deviation from target length of 5 cm}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"length.perception"
+
+#' Light bulb
+#'
+#' An experiment to compare the light intensities of different brands of light bulbs.
+#' (Chapter 10, Table 10.9)
+#' @format A data frame with 48 rows and 6 variables:
+#' \describe{
+#'  \item{WATTG}{wattage - 2 levels (60 or 100 watt)}
+#'  \item{CAPCTY}{capacity - 2 levels (50 or 100 percent)}
+#'  \item{BRAND}{brand type - 3 levels}
+#'  \item{TRTMT}{treatment combination - 6 levels (BRAND X CAPCTY)}
+#'  \item{RESIST}{observed resistance}
+#'  \item{ORDER}{order of observation}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"light.bulb"
+
+#' Load carrying
+#'
+#' An experiment to investigate the load-carrying capability of the human arm.
+#' (Chapter 10, Table 10.24)
+#' @format A data frame with 36 rows and 6 variables:
+#' \describe{
+#'  \item{SUBJECT}{subject identifier}
+#'  \item{ORDER}{order of observation within block}
+#'  \item{FLEX}{elbow flexion - 3 levels (0, 45 and 90 degrees)}
+#'  \item{ROTN}{shoulder rotation - 3 levels (0, 45, and 90 degrees)}
+#'  \item{Y}{maximum torque generated at the elbow joint measured in Newtons}
+#'  \item{TC}{treatment combinations - 9 levels (FLEX x ROTN)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"load.carrying"
+
+
+#'

@@ -8,7 +8,7 @@
 \describe{
  \item{FLAVOR}{flavor of ice cream - 3 levels}
  \item{TIME}{melting time in seconds}
- \ITEM{ORDER}{order of observation}
+ \item{ORDER}{order of observation}
  }}
 \source{
 \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
