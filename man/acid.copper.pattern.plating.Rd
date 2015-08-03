@@ -20,7 +20,7 @@ acid.copper.pattern.plating
 }
 \description{
 Experiment to minimize coating thinkness variation of an acid copper-plating
-process. (Chapter 16)
+process. (Chapter 16, Table 16.7)
 }
 \keyword{datasets}
 

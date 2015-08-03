@@ -1,7 +1,7 @@
 #' Acid copper pattern plating experiment
 #'
 #' Experiment to minimize coating thinkness variation of an acid copper-plating
-#' process. (Chapter 16)
+#' process. (Chapter 16, Table 16.7)
 #' @format A data frame with 10 rows and 5 variables:
 #' \describe{
 #'   \item{xA}{Anode-cathode separation (in.) - uncoded}
@@ -725,4 +725,40 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 "golf.ball"
 
+#' Handwheel
+#'
+#' An experiment for finding the design of a machine tool handwheel that
+#' would maximize the accuracy on the part of the operator in the setting
+#' of the machine tool handwheel. (Chapter 15, Table 15.48)
+#' @format A data frame with 64 rows and 9 variables:
+#' \describe{
+#'  \item{BLOCK}{block - 4 levels}
+#'  \item{A}{handwheel diameter - 2 levels (5.5 or 10 in)}
+#'  \item{B}{dial diameter - 2 levels (4 or 8 in)}
+#'  \item{C}{thickness of the dial line - 2 levels (0.008 or 0.064 in)}
+#'  \item{D}{friction of the spindle - 2 levels (7.5 or 45 lb.-in)}
+#'  \item{E}{level of operator's elbow relative to height of handwheel - 2 levels
+#'  (level or above)}
+#'  \item{F}{previous experience of operator - 2 levels (practiced or nonpracticed)}
+#'  \item{G}{knowledge of accuracy of previous setting - 2 levels (feedback or no
+#'  feedback)}
+#'  \item{LOGS}{response variable: log of sample variance of 25 repeated observations
+#'  for a particular treatment combination}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"handwheel"
+
+#' Heart-lung pump
+#'
+#' An experiment to determine the effect of the number of revolutions per minute (rpm)
+#' of the rotary pump head of an Olson heart-lung pump on the fluid flow rate.
+#' (Chapter 3, Table 3.2)
+#' @format A data frame with 20 rows and 3 variables:
+#' \describe{
+#'  \item{ORDER}{run order}
+#'  \item{RPM}{number of rpms - 5 levels (50, 75, 100, 125, 150)}
+#'  \item{Y}{fluid flow (liters/minute)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+"heartlung.pump"
 
