@@ -917,7 +917,7 @@
 #'
 #' An experiment to determine which options speed up or slow down the printing
 #' of a reasonably detailed picture. (Chapter 15, Table 15.50)
-#' @format A dataframe with 16 rows and 16 variables. (See example pages 534 - 535
+#' @format A dataframe with 16 rows and 16 variables. (See pages 534 - 535
 #' for explanation of variables.)
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
@@ -1092,3 +1092,208 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "operator"
+
+#' PAH recovery
+#'
+#' An experiment to study the effects of four factors on the total recovery of polycyclic aromatic
+#' hydrocarbons (PAHs) when extracted from soil. (Chapter 16, Table 16.19)
+#' @format A data frame with 30 rows and 8 variables. (See section 16.7.2 for explanation of variables)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"pah.recovery"
+
+#' Paint 1
+#'
+#' An experiment on the thickness of a paint coating. (Chapter 15, Table 15.49)
+#' @format A data frame with 8 rows and 12 variables. (See Ch 15, exercise 7(c) for
+#' explanation of variables)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{paint.2}}, \code{\link{paint.followup}}
+"paint.1"
+
+#' Paint 2
+#'
+#' An experiment on the thickness of a paint coating. (Chapter 16, Table 16.1)
+#' @format A data frame with 32 rows and 7 variables:
+#' \describe{
+#'  \item{A}{belt speed - 2 levels}
+#'  \item{B}{tube width - 2 levels}
+#'  \item{C}{pump pressure - 2 levels}
+#'  \item{D}{paint viscosity - 2 levels}
+#'  \item{E}{tube height - 2 levels}
+#'  \item{F}{heating temperature - 2 levels}
+#'  \item{y}{paint thickness in mm}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{paint.1}}, \code{\link{paint.followup}}
+"paint.2"
+
+#' Paint followup
+#'
+#' An experiment on the thickness of a paint coating. (Chapter 16, Table 16.24)
+#' @format A data frame with 16 rows and 5 variables:
+#' \describe{
+#'  \item{zA}{belt speed - 2 levels}
+#'  \item{zB}{tube width - 2 levels}
+#'  \item{zC}{pump pressure - 2 levels}
+#'  \item{zD}{paint viscosity - 2 levels}
+#'  \item{y}{paint thickness in mm}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{paint.1}}, \code{\link{paint.2}}
+"paint.followup"
+
+#' Paper towel absorbancy
+#'
+#' An experiment to compare the effects of two treatment factors, brand and printing, on the absorbancy
+#' of paper towels. (Chapter 9, Table 9.8)
+#' @format A data frame with 12 rows and 8 variables:
+#' \describe{
+#'  \item{RUN}{order of obs}
+#'  \item{TRTMT}{treatment combination}
+#'  \item{AB}{treatment combination by levels of A and B}
+#'  \item{DROPS}{number of water drops absorbed}
+#'  \item{TIME}{time to collect observation in seconds}
+#'  \item{AREA}{square inches of towel}
+#'  \item{RATE}{rate at which water droplets fell to towel (DROPS/TIME)}
+#'  \item{ABSORB}{number of water drops absorbed per square inch of towel (DROPS/AREA)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"paper.towel.absorbancy"
+
+#' Paper towel strength
+#'
+#' An experiment to compare relative strengths of two brands of paper towels under varying levels of
+#' moisture saturation and liquid type. (Chapter 7, Table 7.20)
+#'
+#' @format A data frame with 24 rows and 6 variables:
+#' \describe{
+#'  \item{ABC}{treatment combinations}
+#'  \item{A}{amount of liquid - 2 levels (5 or 10 drops)}
+#'  \item{B}{brand of towel - 2 levels}
+#'  \item{C}{type of liquid - 2 levels (beer or water)}
+#'  \item{STRENGTH}{"strength" of paper towel}
+#'  \item{ORDER}{run order}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @examples
+#' with(papertowel.strength, interaction.plot(factor(A), factor(B), STRENGTH))
+#' with(papertowel.strength, interaction.plot(factor(A), factor(C), STRENGTH))
+#' with(papertowel.strength, interaction.plot(factor(B), factor(C), STRENGTH))
+"papertowel.strength"
+
+#' Peas
+#'
+#' An experiment to evaluate the effects of nitrogen, phosphate and potassium on the growth of peas.
+#' (Chapter 13, Table 13.25)
+#' @format A data frame with 24 rows and 5 variables:
+#' \describe{
+#'  \item{block}{which block - 6 levels}
+#'  \item{N}{nitogen - 2 levels}
+#'  \item{P}{phosphate - 2 levels}
+#'  \item{K}{potassium - levels}
+#'  \item{Y}{yield of peas (pounds/plot)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link[datasets]{npk}} in the \code{datasets} package
+"peas"
+
+#' Pedestrian light
+#'
+#' An experiment to determine whether pushing a certain pedestrian light button had an effect on
+#' waiting for the walk light to appear. (Chapter 3, Table 3.12)
+#' @format A data frame with 32 rows and 2 variables:
+#' \describe{
+#'  \item{PUSHES}{number of pushes - 4 levels}
+#'  \item{TIME}{time in seconds for walk light to appear}
+#'  }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"pedestrian.light"
+
+#' Penicillin
+#'
+#' An experiment that investigates the effects of various factors on the yield of penicillin in surface
+#' culture experiments. (Chapter 13, Table 13.24)
+#' @format A data frame with 32 rows and 7 variables:
+#' \describe{
+#'  \item{BLOCK}{week of experiment - 2 levels}
+#'  \item{A}{corn steep liquor - 2 levels (2 or 3\% strength)}
+#'  \item{B}{lactose - 2 levels (2 or 3\% strength)}
+#'  \item{C}{precursor - 2 levels (0 or 0.05\%)}
+#'  \item{D}{sodium nitrate - 2 levels (0 or 0.3\%)}
+#'  \item{E}{glucose - 2 levels (0 or 0.5\%)}
+#'  \item{YIELD}{yield of penicillin}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"penicillin"
+
+#' Plasma
+#'
+#' An experiment to study the effects of different plasma treatments of certain plastic pipet tips on the
+#' capillary action of the pipets. (Chapter 11, Table 11.10)
+#' @format A data frame with 18 rows and 5 variables:
+#' \describe{
+#'  \item{BLOCK}{blocking factor - 6 levels}
+#'  \item{DAY}{day of experiment - 2 levels}
+#'  \item{EXPTR}{experimenter - 3 levels}
+#'  \item{TRTMT}{treatment - 6 levels}
+#'  \item{Y}{height of the water column (mm)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"plasma"
+
+#' Popcorn microwave
+#'
+#' An experiment to compare which brands of microwave popcorn yield the highest proportion of popped kernels.
+#' (Chapter 7, Table 7.2)
+#' @format A data frame with 36 rows and 4 variables:
+#' \describe{
+#'  \item{brand}{brand of popcorn - 3 levels}
+#'  \item{power}{power of microwave - 2 levels}
+#'  \item{time}{popping time - 3 levels (4, 4.5, or 5 mins)}
+#'  \item{y}{percent of kernels popped}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"popcorn.microwave"
+
+#' Popcorn robust
+#'
+#' An experiment to examine three brands of popcorn and two types of oil in terms of the percentage of edible
+#' kernels obtained after popping 200 kernels of corn for a certain length of time. (Chapter 7, Table 7.25)
+#' @format A data frame with 36 rows and 4 variables:
+#' \describe{
+#'  \item{POP}{brand of popcorn - 3 levels}
+#'  \item{OIL}{type of oil - 2 levels (corn oil or name brand popping oil)}
+#'  \item{TIME}{popping time - 3 levels (1.5, 1.75 or 2 mins)}
+#'  \item{PCPOP}{percentage of popped kernels}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"popcorn.robust"
+
+#' Projectile
+#'
+#' An experiment to study the effects on projectile velocity. (Chapter 13, Table 13.22)
+#' @format A data frame with 16 rows and 7 variables:
+#' \describe{
+#'  \item{day}{day of data collection - 2 levels}
+#'  \item{run}{order of experiment}
+#'  \item{A}{charge weight - 2 levels}
+#'  \item{B}{projectile weight - 2 levels}
+#'  \item{C}{propellant web - 2 levels}
+#'  \item{D}{weapon - 2 levels}
+#'  \item{y}{projectile velocity}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"projectile"
