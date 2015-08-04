@@ -26,5 +26,8 @@ flour.production
 An experiment to find effect of ingredients on bread loaf volume. (Chapter 16,
 Table 16.12)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

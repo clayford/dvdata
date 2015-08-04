@@ -26,5 +26,8 @@ aggregate(Y ~ A*B, data=exam.paper, mean)
 boxplot(Y ~ A*B, data=exam.paper)
 summary(lm(Y ~ A*B, data=exam.paper))
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

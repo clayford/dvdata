@@ -30,5 +30,8 @@ An experiment for finding the design of a machine tool handwheel that
 would maximize the accuracy on the part of the operator in the setting
 of the machine tool handwheel. (Chapter 15, Table 15.48)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

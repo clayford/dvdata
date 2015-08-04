@@ -23,5 +23,8 @@ light.bulb
 An experiment to compare the light intensities of different brands of light bulbs.
 (Chapter 10, Table 10.9)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

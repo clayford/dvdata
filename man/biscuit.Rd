@@ -20,5 +20,8 @@ biscuit
 \description{
 An experiment to study how to make fluffy biscuits. (Chapter 10)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

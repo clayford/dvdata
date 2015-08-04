@@ -21,5 +21,8 @@ air.rifle
 Experiment to examine the accuracy of an air rifle shooting at a target.
 (Chapter 11)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

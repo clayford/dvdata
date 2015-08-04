@@ -19,5 +19,8 @@ bicycle
 An experiment to compare crank rates required to keep a bicycle at certain
 speeds, when the bicycle was in 12th gear on flat ground.(Chapter 5)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

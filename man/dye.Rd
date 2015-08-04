@@ -24,5 +24,8 @@ dye
 An experiment that investigates three reactants in the manufacture of a cotton
 dyestuff.
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

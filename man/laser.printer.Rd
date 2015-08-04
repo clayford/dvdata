@@ -16,5 +16,8 @@ laser.printer
 An experiment to determine which options speed up or slow down the printing
 of a reasonably detailed picture. (Chapter 15, Table 15.50)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

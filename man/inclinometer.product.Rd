@@ -17,5 +17,8 @@ An experiment that seeks to improve the performance of an inclinometer,
 an instrument that records the angle of tilt of an object such as a crane jib.
 (Chapter 15, Table 15.41)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

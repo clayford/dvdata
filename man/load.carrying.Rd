@@ -23,5 +23,8 @@ load.carrying
 An experiment to investigate the load-carrying capability of the human arm.
 (Chapter 10, Table 10.24)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

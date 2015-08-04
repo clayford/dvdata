@@ -29,5 +29,8 @@ qqline(catalyst$yield)
 with(catalyst, evrot(resp = yield, trt = treat))
 with(catalyst, tapply(yield, treat, var))
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

@@ -24,5 +24,8 @@ An experiment to compare the effect on the force with which the foot hits the
 ground of a regular insole cushion and a heel cushion, available both as a
 brand name and a store name. (Chapter 10, Table 10.28)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

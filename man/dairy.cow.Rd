@@ -21,5 +21,8 @@ dairy.cow
 An experiment that studies the effect of three diets on the milk production
 of dairy cows.
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

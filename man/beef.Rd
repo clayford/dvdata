@@ -20,5 +20,8 @@ beef
 An experiment to compare the effects of cold storage on the tenderness of beef
 roasts. (Chapter 11)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

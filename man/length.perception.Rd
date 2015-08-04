@@ -22,5 +22,8 @@ length.perception
 An experiment to explore subjects' ability to reproduce accurately a straight
 line of given length (5 cm). (Chapter 10, Table 10.23)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

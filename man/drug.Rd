@@ -24,5 +24,8 @@ drug
 An experiment to evaluate eight drugs for the treatment of arthritis. The
 experimental units were rats. (Chapter 19)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

@@ -22,5 +22,8 @@ galling
 An experiment to study the effects of speed, surface roughness, and axial load
 on the "galling" of a metal collar. (Chapter 7, Table 7.23)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

@@ -23,5 +23,8 @@ exercise.bicycle
 \description{
 An experiment to investigate effects of exercise on pulse rate. (Chapter 12)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

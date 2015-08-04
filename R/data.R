@@ -11,6 +11,7 @@
 #'   \item{zB}{Current Density (asf) - coded}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 #'
 "acid.copper.pattern.plating"
 
@@ -27,6 +28,7 @@
 #'   \item{Y}{Percent penetration}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "aerosol"
 
 #' Air freshener
@@ -41,6 +43,7 @@
 #'  \item{Y}{unit sales for a one week period}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "air.freshener"
 
 #' Air rifle
@@ -55,6 +58,7 @@
 #'  \item{Y}{distance from center of taget (mm)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "air.rifle"
 
 #' Air velocity
@@ -70,6 +74,7 @@
 #'  from center of rod}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "air.velocity"
 
 #' Alcohol
@@ -82,6 +87,7 @@
 #'  \item{CONC}{concentration of alcohol determined by gas chromatography (mg/ml)}
 #'}
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "alcohol"
 
 #' Algorithm
@@ -99,6 +105,7 @@
 #'  \item{TC}{treatment combination}
 #'  }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "algorithm"
 
 #' Ammunition
@@ -112,6 +119,7 @@
 #'  \item{VELCTY}{muzzle velocities (ft/sec)}
 #'  }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "ammunition"
 
 #' Balloon
@@ -125,6 +133,7 @@
 #'  \item{TIME}{time to inflate balloon (nearest 1/10 second)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "balloon"
 
 #' Banana
@@ -139,6 +148,7 @@
 #'  \item{Y}{percentage of blackened skin}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "banana"
 
 #' Battery
@@ -154,6 +164,7 @@
 #'  \item{ORDER}{time order}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "battery"
 
 #' Bean soaking
@@ -166,6 +177,7 @@
 #'  \item{LENGTH}{length of a shoot 48 hours after soaking (mm)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "bean.soaking"
 
 #' Beef
@@ -179,6 +191,7 @@
 #'  \item{Y}{tenderness score; max score is 40}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "beef"
 
 #' Bicycle
@@ -191,6 +204,7 @@
 #'  \item{RATE}{crank rate}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "bicycle"
 
 #' Biscuits
@@ -204,6 +218,7 @@
 #'  \item{Y}{percentage of original height}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "biscuit"
 
 #' Bleach
@@ -219,6 +234,7 @@
 #'  \item{ORDER}{run order}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "bleach"
 
 #' Buttermilk biscuits
@@ -233,6 +249,7 @@
 #'  \item{CHANGE}{percentage change in biscuit height}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "buttermilk.biscuit"
 
 #' Candle
@@ -246,6 +263,7 @@
 #'  \item{TIME}{burning times in seconds}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "candle"
 
 #' Catalyst
@@ -259,6 +277,7 @@
 #'  \item{YIELD}{production rate}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 #' @examples
 #' names(catalyst) <- tolower(names(catalyst))
 #' catalyst$treat <- factor(catalyst$treat)
@@ -283,6 +302,7 @@
 #'  \item{time}{burning time in seconds}
 #'}
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "cigarette"
 
 #' Clean wool
@@ -296,6 +316,7 @@
 #'  original weight of the raw wool}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "clean.wool"
 
 #' Colorfastness
@@ -309,6 +330,7 @@
 #'  \item{Y}{color change (continuous version of the Gray Scale for Color Change)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "colorfastness"
 
 #' Cotton spinning
@@ -325,6 +347,7 @@
 #'  \item{BREAK}{number of breaks per 100 pounds of material}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "cotton.spinning"
 
 #' Dairy Cow
@@ -339,6 +362,7 @@
 #'  \item{YIELD}{milk yield}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "dairy.cow"
 
 #' Decontamination (alpha particles)
@@ -359,6 +383,7 @@
 #'  \item{COUNT}{counts per minute per milliliter of alpha particles}
 #'  }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "decontam.alpha"
 
 #' Decontamination (beta particles)
@@ -379,6 +404,7 @@
 #'  \item{COUNT}{counts per minute per milliliter of beta particles}
 #'  }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "decontam.beta"
 
 #' Dessert
@@ -395,6 +421,7 @@
 #'  \item{FP}{position in freezer - 6 levels}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "dessert"
 
 #' Detergent
@@ -409,6 +436,7 @@
 #'  \item{ADDITIVE}{parts of additive for base detergent - 4 levels}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "detergent"
 
 #' Drill advance
@@ -425,6 +453,7 @@
 #'  \item{LN_ADV}{log to base 10 of drill advance}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 #' @examples
 #' apply(drill.advance[,1:4],2,table) # each factor observed at 2 levels
 #' # set A - D as factor class
@@ -456,6 +485,7 @@
 #'  \item{LNY}{log of Y}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "drug"
 
 #' Dye
@@ -473,6 +503,7 @@
 #'  \item{Y}{volumes of dyestuff resulting from the chemical reactions}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "dye"
 
 #' Erythrocyte
@@ -487,6 +518,7 @@
 #'  \item{COUNT}{number of erythrocites per cubic millimeter of blood}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "erythrocyte"
 
 #' Evaporation
@@ -501,6 +533,7 @@
 #'  \item{Y}{amount of water evaporated (100 ml less the amount remaining)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 #' @examples
 #' aggregate(Y ~ A + B + C, data=evaporation, mean)
 #' summary(aov(Y ~ A + B + C, data=evaporation))
@@ -519,6 +552,7 @@
 #'  \item{Y}{exam score}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 #' @examples
 #' aggregate(Y ~ A*B, data=exam.paper, mean)
 #' boxplot(Y ~ A*B, data=exam.paper)
@@ -539,6 +573,7 @@
 #'  \item{TC}{treatment combinations - 8 levels}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "exercise.bicycle"
 
 #' Exercise
@@ -556,6 +591,7 @@
 #'  \item{ORDER}{time order}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "exercise"
 
 
@@ -574,6 +610,7 @@
 #'  \item{TC}{treatment combination - 2^4 = 16 levels}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "field"
 
 #' Film viscosity
@@ -591,6 +628,7 @@
 #'  \item{y}{apparent viscosity (mPa)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "film.viscosity"
 
 #' Fishing line
@@ -605,6 +643,7 @@
 #'  \item{Y}{weight of water that broke line (lb)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "fishing.line"
 
 #' Flour experiment number 1
@@ -623,6 +662,7 @@
 #'  \item{Y}{yield of flour}
 #'}
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "flour.expt1"
 
 #' Flour experiment number 3
@@ -643,6 +683,7 @@
 #'  \item{T}{dough time delay - 2 levels (short or long)}
 #'}
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "flour.expt3"
 
 #' Flour production
@@ -662,6 +703,7 @@
 #'  \item{logs}{log base 10 of \code{mean}}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "flour.production"
 
 #' Fractionation
@@ -681,6 +723,7 @@
 #'  \item{PCE}{phosphatidylcholine enrichment}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "fractionation"
 
 #' Galling
@@ -696,6 +739,7 @@
 #'  0 -10}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "galling"
 
 #' Gasoline pilot
@@ -711,6 +755,7 @@
 #'  \item{ORDER}{order of observation within block}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "gasoline.pilot"
 
 #' Golf Ball
@@ -723,6 +768,7 @@
 #'  \item{y}{distance traveled in yards}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "golf.ball"
 
 #' Handwheel
@@ -746,6 +792,7 @@
 #'  for a particular treatment combination}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "handwheel"
 
 #' Heart-lung pump
@@ -760,6 +807,7 @@
 #'  \item{Y}{fluid flow (liters/minute)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "heartlung.pump"
 
 #' Ice cream
@@ -773,6 +821,7 @@
 #'  \item{ORDER}{order of observation}
 #'  }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "icecream"
 
 #' Inclinometer mixed
@@ -783,6 +832,7 @@
 #' @format A dataframe with 216 rows and 15 variables. (See section 15.7.1 for
 #' explanation of variables.)
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "inclinometer.mixed"
 
 #' Inclinometer product
@@ -793,6 +843,7 @@
 #' @format A dataframe with 27 rows and 17 variables. (See example 15.8.1 for
 #' explanation of variables.)
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "inclinometer.product"
 
 #' Injecton molding
@@ -811,6 +862,7 @@
 #'  \item{WDTH}{width - (deviation from 9.35) * 10^4}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "injection.molding"
 
 #' Ink
@@ -826,6 +878,7 @@
 #'  \item{Y}{stain score, scale of 1 (black) - 19 (white)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "ink"
 
 #' Insole cushion
@@ -843,6 +896,7 @@
 #'  \item{FORCE}{response in Newtons}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "insole.cushion"
 
 #' Isomer
@@ -856,6 +910,7 @@
 #'  \item{y}{percent conversion}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "isomer"
 
 #' Laser printer
@@ -865,6 +920,7 @@
 #' @format A dataframe with 16 rows and 16 variables. (See example pages 534 - 535
 #' for explanation of variables.)
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "laser.printer"
 
 #' Length perception
@@ -880,6 +936,7 @@
 #'  \item{Y}{deviation from target length of 5 cm}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "length.perception"
 
 #' Light bulb
@@ -896,6 +953,7 @@
 #'  \item{ORDER}{order of observation}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "light.bulb"
 
 #' Load carrying
@@ -912,6 +970,7 @@
 #'  \item{TC}{treatment combinations - 9 levels (FLEX x ROTN)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "load.carrying"
 
 #' Machine head
@@ -925,5 +984,67 @@
 #'  \item{y}{strain reading}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "machine.head"
 
+#' Mangold
+#'
+#' An experiment to investigate the effects of five different fertilizers on the growth of mangold roots.
+#' (Chapter 13, Table 13.11)
+#' @format A data frame with 32 rows and 7 variables:
+#' \describe{
+#'  \item{BLOCK}{experimental area}
+#'  \item{A}{sulphate of ammonia - 2 levels (0 and 0.6 cwt per acre)}
+#'  \item{B}{superphosphate - 2 levels (0 and 0.5 cwt per acre)}
+#'  \item{C}{muriate of potash - 2 levels (0 and 1.0 cwt per acre)}
+#'  \item{D}{agricultural salt - 2 levels (0 and 5 cwt per acre)}
+#'  \item{E}{dung - 2 levels (0 or 10 tons per acre)}
+#'  \item{Y}{yield of mangold roots in pounds}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"mangold"
+
+#' Margarine
+#'
+#' Melting times in seconds for three different brands of margarine and one brand of butter.
+#' (Chapter 5, Table 5.14)
+#' @format A data frame with 40 rows and 2 variables:
+#' \describe{
+#'  \item{BRAND}{brand of margarine - 4 levels (1 - 3 are margarine brands, 4 is butter)}
+#'  \item{TIME}{time in seconds}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"margarine"
+
+#' Memory
+#'
+#' An experiment to examine the effects of external distractions on short-term memory and to
+#' examine whether some types of words were easier to memorize than others.
+#' (Chapter 6, Table 6.21)
+#' @format A data frame with 27 rows and 3 variables:
+#' \describe{
+#'  \item{WDLIST}{word type - 3 levels (fruit, nouns, mixed)}
+#'  \item{DISTRACT}{type of distraction - 3 levels (none, constant, changing)}
+#'  \item{Y}{number of words remembered}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"memory"
+
+#' Mung bean
+#'
+#' An experiment to compare watering schedules and growing mediums for mung bean seeds.
+#' (Chapter 5, Table 5.7)
+#' @format A data frame 48 rows and 5 variables:
+#' \describe{
+#'  \item{ORDER}{order of observation}
+#'  \item{WATER}{amount of water - 3 levels (1, 2, or 3 tsp per dat)}
+#'  \item{MAT}{growing medium - 2 levels (tissue or paper towel)}
+#'  \item{LENGTH}{shoot length in mm}
+#'  \item{TRTMT}{treatment combination (WATER x MAT)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"mung.bean"

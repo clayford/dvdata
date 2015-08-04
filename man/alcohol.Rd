@@ -19,5 +19,8 @@ alcohol
 Alcohol concentrations of samples of alcohol solutions taken from six bottles of
 alcohol solution randomly selected from a large batch. (Chapter 17)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

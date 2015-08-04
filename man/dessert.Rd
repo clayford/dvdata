@@ -23,5 +23,8 @@ dessert
 An experiment to determine whether melting rate of a frozen dessert will be
 affected by the addition of salt and/or sugar. (Chapter 5)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

@@ -19,5 +19,8 @@ golf.ball
 \description{
 Effect of brand on distance traveled by golf balls. (Chapter 17, Table 17.19)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

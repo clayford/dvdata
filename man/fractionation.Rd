@@ -26,5 +26,8 @@ ethanol concentration, and temperature on the yield and phosphatidylcholine
 enrichment (PCE) of deoiled rapeseed lecithin when fractionated with
 ethanol. (Chapter 16, Table 16.25)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

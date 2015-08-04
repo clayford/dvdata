@@ -26,5 +26,8 @@ aggregate(Y ~ A + B + C, data=evaporation, mean)
 summary(aov(Y ~ A + B + C, data=evaporation))
 with(evaporation, interaction.plot(A,B,Y))
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

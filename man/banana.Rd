@@ -21,5 +21,8 @@ banana
 An experiment to determine if lighting conditions and storage method affect
 percentage of blackened skin on bananas (Chapter 10)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

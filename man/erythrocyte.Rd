@@ -21,5 +21,8 @@ erythrocyte
 An experiment that investigates the effect of sulfamerazine on the number
 of erythrocites per cubic millimeter of blood in brown trout. (Chapter 18)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

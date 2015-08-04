@@ -23,5 +23,8 @@ An experiment to investigate the way in which different degrees of twist (measur
 in turns per inch) affect the breakage rate of the roving, and to compare the
 ordinary flyer with the newly devised special flyer. (Chapter 2)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

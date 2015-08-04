@@ -20,5 +20,8 @@ colorfastness
 An experiment to investigate the linear and quadratic effects of the number of
 washes on the color change of a denim fabric. (Chapter 10)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

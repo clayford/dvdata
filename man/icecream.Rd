@@ -20,5 +20,8 @@ icecream
 An experiment to determine if different flavors of ice cream melt at different
 speeds. (Chapter 17, Table 17.2)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

@@ -25,5 +25,8 @@ flour.expt1
 An experiment to examine the effect of 6 ingredients on average yield of flour.
 (Chapter 15, Table 15.51)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

@@ -21,5 +21,8 @@ air.freshener
 Experiment to compare the effects of four price-and-display treatments on the
 sales of a brand of air freshener. (Chapter 14)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

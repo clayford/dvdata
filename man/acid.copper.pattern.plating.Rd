@@ -22,5 +22,8 @@ acid.copper.pattern.plating
 Experiment to minimize coating thinkness variation of an acid copper-plating
 process. (Chapter 16, Table 16.7)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

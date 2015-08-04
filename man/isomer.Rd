@@ -20,5 +20,8 @@ isomer
 An experiment to obtain information about the effect of pressure on percent
 conversion of methyl glucoside to monovinyl isomers. (Chapter 11, Table 11.22)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

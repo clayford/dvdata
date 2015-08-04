@@ -27,5 +27,8 @@ flour.expt3
 An experiment to find flour that is least variable under different levels of noise
 variables. (Chapter 15, Table 15.17)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

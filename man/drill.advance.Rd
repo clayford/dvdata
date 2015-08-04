@@ -38,5 +38,8 @@ for(i in LETTERS[1:4]){
 }
 par(op)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

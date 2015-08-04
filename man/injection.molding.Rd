@@ -25,5 +25,8 @@ injection.molding
 An experiment on the effect of six factors on the shrinkage of a part
 produced by injection molding. (Chapter 15, Table 15.52)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

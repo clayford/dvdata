@@ -22,5 +22,8 @@ battery
 An experiment to determine what type of nonrechargeable battery was most
 economical. (Chapter 2)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

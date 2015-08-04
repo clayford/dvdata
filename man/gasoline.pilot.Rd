@@ -22,5 +22,8 @@ An experiment to determine whether the use of a higher-octane gasoline
 increases the miles per gallon achieved by an automobile. (Chapter 10,
 Table 10.19)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

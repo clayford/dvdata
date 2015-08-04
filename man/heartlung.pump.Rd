@@ -21,5 +21,8 @@ An experiment to determine the effect of the number of revolutions per minute (r
 of the rotary pump head of an Olson heart-lung pump on the fluid flow rate.
 (Chapter 3, Table 3.2)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

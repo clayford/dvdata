@@ -22,5 +22,8 @@ An experiment to determine which type of cloth is most difficult to clean and
 whether a detergent plus stain remover was better than a detergent without
 stain remover. (Chapter 6, Table 6.22)
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 

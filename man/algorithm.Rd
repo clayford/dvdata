@@ -24,5 +24,8 @@ An experiement to compare the speeds of three computer algorithms for selecting
 a simple random sample of size m without replacement from a population of
 size N.
 }
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+}
 \keyword{datasets}
 
