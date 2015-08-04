@@ -1583,3 +1583,80 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "systolic.blood.pressure"
+
+#' Temperature
+#'
+#' An experiment to compare the times required for three different digital
+#' thermometers to register body temperature at two different sites. (Chapter 17,
+#' Table 17.10)
+#' @format A data frame with 24 rows and 4 variables:
+#' \describe{
+#'  \item{THMOM}{thermometer type - 3 levels}
+#'  \item{LOC}{location of use - 2 levels (mouth, under the arm)}
+#'  \item{SUBJ}{subject identifier}
+#'  \item{Y}{time in seconds to register body temperature}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"temperature"
+
+#' Torque optimization 1
+#'
+#' An experiment to stabilize frame torque of a car seat track. (Chapter 7, Table 7.8)
+#' @format A data frame with 36 rows and 4 variables:
+#' \describe{
+#'  \item{A}{anvil type - 3 levels (coined, flat, crowned)}
+#'  \item{B}{rivet diameter - 3 levels (7.0. 7.5, 8.0 mm)}
+#'  \item{M}{mahcine identifier}
+#'  \item{Y}{torque (inch-pounds)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{torque.optimization.2}}
+"torque.optimization.1"
+
+#' Torque optimization 2
+#'
+#' An experiment to stabilize frame torque of a car seat track. (Chapter 7, Table 7.10)
+#' @format A data frame with 9 rows and 4 variables:
+#' \describe{
+#'  \item{AB}{treatment combinations - 9 levels}
+#'  \item{MEAN}{mean torque at level AB}
+#'  \item{VAR}{variance of torque at level AB}
+#'  \item{LNV}{log of variance of torque at level AB}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{torque.optimization.1}}
+#' @examples
+#' # deriving torque.optimization.2 from torque.optimization.1
+#' mslns <- function(x){
+#' c(round(mean(x),2),
+#'   round(var(x),2),
+#'   round(log(var(x)),3)
+#'  )
+#' }
+#' g <- with(torque.optimization.1, split(Y, list(B,A)))
+#' t2 <- as.data.frame(do.call(rbind, lapply(g, mslns)))
+#' names(t2) <- c("MEAN","VAR","LNV")
+#' t2$AB <- unique(with(torque.optimization.1,
+#'                 interaction(A,B,sep="",lex.order = T)))
+#' rownames(t2) <- NULL
+#' t2 <- t2[,c(4,1:3)]
+#' all.equal(t2, torque.optimization.2, tolerance = 1.5e-3)
+"torque.optimization.2"
+
+#' Trout
+#'
+#' An experiment to test the effect of sulfamerazine on hemoglobin in brown trout. (Chapter 3,
+#' Table 3.13)
+#' @format A data frame with 40 rows and 2 variables:
+#' \describe{
+#'  \item{SULFA}{amount of sulfamerazine added to fish food - 4 levels (0, 5, 10, 15 grams)}
+#'  \item{HEMO}{hemoglobin (grams per 100 ml)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"trout"
+
+

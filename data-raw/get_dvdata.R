@@ -17,10 +17,10 @@ for(i in 1:length(links)){
   print(cat(links[i],"\n",dfnames[i],"\n"))
 }
 
-rm(list = ls())
-
 # individual data frame fixes
 # fix NA
-load("data/fractionation.rdata")
 fractionation$PCE <- suppressWarnings(as.numeric(as.character(fractionation$PCE)))
 save(fractionation, file="data/fractionation.rdata")
+
+torque.optimization.2$AB <- factor(torque.optimization.2$AB)
+save(fractionation, file="data/torque.optimization.2.rdata")
