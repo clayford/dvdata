@@ -1297,3 +1297,123 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "projectile"
+
+#' Quantity perception
+#'
+#' An experiment to investigate the effect of color on the perception of quantity. (Chapter 12, Table 12.15)
+#' @format A data frame of 162 rows and 8 variables. (See ch 12, exercise 10 for explanation of variables)
+#'  \describe{
+#'    \item{OBS}{}
+#'    \item{SUBJ}{}
+#'    \item{ORDER}{}
+#'    \item{TRTMT}{}
+#'    \item{NUMBER}{}
+#'    \item{COLOR}{}
+#'    \item{Y}{}
+#'    \item{COUNT}{}
+#'  }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"quantity.perception"
+
+#' Rail weld
+#'
+#' An experiment to investigate the effect of three factors on the tensile strength of welds.
+#' (Chapter 7, Table 7.14)
+#' @format A data frame with 12 rows and 4 variables:
+#' \describe{
+#'  \item{T}{ambient temperature - 2 levels (0 and 70 F)}
+#'  \item{V}{wind velocity - 2 levels (0 and 20 mph)}
+#'  \item{S}{rail steel bar size - 2 levels (4/11 and 11/11 inches)}
+#'  \item{Y}{tensile strength}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"rail.weld"
+
+#' Reaction time
+#'
+#' An experiment to compare the effects of auditory and visual cues on speed of response of a human subject.
+#' (Chapter 4, Table 4.6)
+#' @format A data frame with 18 rows and 5 variables:
+#' \describe{
+#'  \item{ORDER}{order of collection}
+#'  \item{TC}{Treatmebt combination - 6 levels}
+#'  \item{CUE}{cue stimulus - 2 levels (auditory or visual)}
+#'  \item{ELAPTM}{elapsed time between cue and stimulus - 3 levels (5, 10 or 15 secs)}
+#'  \item{REACTM}{reaction time in secs}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"reaction.time"
+
+#' Refinery
+#'
+#' An experiment to find a set of operating conditions to optimize the quality of lube oil treated at a
+#' refinery. (Chapter 15, Table 15.13)
+#' @format A data frame with 27 rows and 14 variables. (See example 15.3.1 for explanation of variables)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"refinery"
+
+#' Resin impurity
+#'
+#' An experiment to study the effects of drying time and temperature on the content of undesirable
+#' compounds in a resin. (Chapter 16, Table 16.27)
+#'@format A data frame with 13 rows and 4 variables:
+#'\describe{
+#'  \item{point}{design point}
+#'  \item{time}{drying time}
+#'  \item{temp}{temperature in celsius}
+#'  \item{y}{content of undesirable compounds (ppm)}
+#'}
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"resin.impurity"
+
+#' Respitory exchange ratio
+#'
+#' An experiment to compare the effects of inpatient and outpatient protocols on the in-laboratory measurement
+#' of respitory exchange ratio. (Chapter 10, Table 10.18)
+#' @format A data frame with 27 rows and 3 variables:
+#' \describe{
+#'  \item{SUBJECT}{subject identifier}
+#'  \item{PRTCOL}{protocol type - 3 levels}
+#'  \item{RATE}{respitory exchange ratio}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{resting.metabolic.rate}}
+"respiratory.exchange.ratio"
+
+#' Resting metabolic rate
+#'
+#' An experiment to compare the effects of inpatient and outpatient protocols on the in-laboratory measurement
+#' of resting metabolic rate. (Chapter 10, Table 10.4)
+#' @format A data frame with 27 rows and 3 variables:
+#' \describe{
+#'  \item{SUBJECT}{subject identifier}
+#'  \item{PRTCOL}{protocol type - 3 levels}
+#'  \item{RATE}{resting metabolic rate}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{respiratory.exchange.ratio}}
+"resting.metabolic.rate"
+
+#' Rocket
+#'
+#' An experiment on the testing of an auxiliary rocket engine. (Chapter 7, Table 7.21)
+#' @format A data frame with 32 rows and 5 variables:
+#' \describe{
+#'  \item{A}{vibration - 2 levels}
+#'  \item{B}{temperture cycling - 2 levels}
+#'  \item{C}{altitude cycling - 2 levels}
+#'  \item{D}{firing temperature/altitude - 4 levels}
+#'  \item{Y}{thrust duration in seconds}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"rocket"
+
+
