@@ -4,7 +4,7 @@
 \name{mung.bean}
 \alias{mung.bean}
 \title{Mung bean}
-\format{A data frame 48 rows and 5 variables:
+\format{A data frame with 48 rows and 5 variables:
 \describe{
  \item{ORDER}{order of observation}
  \item{WATER}{amount of water - 3 levels (1, 2, or 3 tsp per dat)}

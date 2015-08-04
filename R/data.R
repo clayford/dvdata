@@ -1037,7 +1037,7 @@
 #'
 #' An experiment to compare watering schedules and growing mediums for mung bean seeds.
 #' (Chapter 5, Table 5.7)
-#' @format A data frame 48 rows and 5 variables:
+#' @format A data frame with 48 rows and 5 variables:
 #' \describe{
 #'  \item{ORDER}{order of observation}
 #'  \item{WATER}{amount of water - 3 levels (1, 2, or 3 tsp per dat)}
@@ -1048,3 +1048,47 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "mung.bean"
+
+#' Nail varnish
+#'
+#' An experiment on the efficacy of nail varnish solvent in removing nail varnish from cloth.
+#' (Chapter 6, Table 6.6)
+#' @format A data frame with 30 rows and 4 variables:
+#' \describe{
+#'  \item{ORDER}{order of obs}
+#'  \item{SOLUTN}{brand of solvent - 2 levels}
+#'  \item{VARNISH}{brand of varnish - 3 levels}
+#'  \item{TIME}{time in minutes until varnish dissolved}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"nail.varnish"
+
+#' Oats
+#'
+#' An experiment on the yield of three varities of oats and four different levels of manure.
+#' (Chapter 19, Table 19.3)
+#' @format A data frame with 72 rows and 5 variables:
+#' \describe{
+#'  \item{BLOCK}{experimental area - 6 levels}
+#'  \item{WP}{whole plot - 18 levels}
+#'  \item{A}{variety of oat - 3 levels}
+#'  \item{B}{amount of manure - 4 levels}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"oats"
+
+#' Operator
+#'
+#' An experiment to determine how much variation in measured manganese concentration in steel was due to
+#' operator variations. (Chapter 18, Table 18.11)
+#' @format A data frame with 80 rows and 3 variables:
+#' \describe{
+#'  \item{SAMPLE}{steel sample - 10 levels}
+#'  \item{OPERATOR}{operator - 4 levels}
+#'  \item{CONC}{manganese concentration (percent)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"operator"
