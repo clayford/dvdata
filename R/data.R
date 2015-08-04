@@ -1416,4 +1416,170 @@
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "rocket"
 
+#' Saltwater
+#'
+#' An experiment to study the effect of salt on the boiling point of water. (Chapter 10, Table 10.21)
+#' @format A data frame with 45 rows and 3 variables:
+#' \describe{
+#'  \item{BLOCK}{experimenter - 3 levels}
+#'  \item{SALT}{amount of salt - 5 levels (0, 8, 16, 24, and 32 grams)}
+#'  \item{TEMP}{boiling point temperature in Celsius}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"saltwater"
 
+#' Sludge
+#'
+#' An experiment that investigates the effect of several factors on the removal of biochemical oxygen demand
+#' from wastewater. (Chapter 15, Table 15.8)
+#' @format A data frame with 8 rows and 6 variables:
+#' \describe{
+#'  \item{A}{reactor biomass concentration - 2 levels (3000 or 6000 mg/l)}
+#'  \item{B}{clarifier biomass concentration - 2 levels (8000 or 12000 mg/l)}
+#'  \item{C}{waste sludge flow rate - 2 levels (78.5 or 940 m^3/d)}
+#'  \item{D}{biological growth rate constant - 2 levels (0.040 and 0.075 d^-1)}
+#'  \item{E}{fraction of food to biomass - 2 levels (0.4 or 0.8 kg/kg)}
+#'  \item{Y}{removal of biochemical oxygen demand}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"sludge"
+
+#' Soap
+#'
+#' An experiment to compare the extent to which three types of soap dissolve in water. (Chapter 2, Table 2.7)
+#' @format A data frame with 12 rows and 5 variables:
+#' \describe{
+#'  \item{SOAP}{type of soap - 3 levels (regular, deodorant, moisturizing)}
+#'  \item{CUBE}{cube of soap}
+#'  \item{PRE_WT}{weight of cube before soaking}
+#'  \item{POST_WT}{weight of cube after soaking}
+#'  \item{WT_LOSS}{weight loss of soap (POST_WT - PRE_WT)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"soap"
+
+#' Soup
+#'
+#' An experiment to investigate the influence of five factors on soup mix weight variation.
+#' (Chapter 15, Table 15.5)
+#' @format A data frame with 16 rows and 6 variables:
+#' \describe{
+#'  \item{A}{number of mixer ports - 2 levels (1 or 3)}
+#'  \item{B}{temperature of mixture jackets - 2 levels ambient temp or presence of cooling water}
+#'  \item{C}{mixing time - 2 levels (60 or  80 seconds)}
+#'  \item{D}{batch weight - 2 levels (1500 or 2000 lbs)}
+#'  \item{E}{delay between mixing and packaging - 2 levels (1 or 7 days)}
+#'  \item{Y}{measure of variation in weight}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"soup"
+
+#' Spaghetti sauce
+#'
+#' An experiment to compare the thickness of three brands of spaghetti sauce. (Chapter 5, Table 5.20)
+#' @format A data frame with 18 rows and 5 variables:
+#' \describe{
+#'  \item{ORDER}{time order}
+#'  \item{BRAND}{brand of sauce - 3 levels}
+#'  \item{STIR}{stirred or unstirred}
+#'  \item{WT}{weight of sauce in grams}
+#'  \item{TRTMT}{treatment combination - 6 levels (see Ch 15, exercise 9 for details)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"spaghetti.sauce"
+
+#' Spectrometer
+#'
+#' An experiment to determine the causes of instability of measurements made by a Baird spectrometer during
+#' production. (Chapter 7, Table 7.22)
+#' @format A data frame with 72 rows and 6 variables:
+#' \describe{
+#'  \item{A}{temperature of lab - 3 levels (67, 72, 77)}
+#'  \item{B}{cleanliness of entrance window seal - 2 levels (clean, one-week use)}
+#'  \item{C}{placement of sample - 3 levels (tangential, covering, partial)}
+#'  \item{D}{wear of boron nitride disk - 2 levels (new, one-month old)}
+#'  \item{E}{sharpness of counterelectrode tip - 2 levels (newly sharpened, one-week wear)}
+#'  \item{Y}{manganese measurements}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"spectrometer"
+
+#' Steel bar
+#'
+#' An experiment that investigated the cause of variability of the length of steel bars in a manufacturing
+#' process. (Chapter 7, Table 7.26)
+#' @format A data frame with 96 rows and 4 variables:
+#' \describe{
+#' \item{A}{heat treatment - 2 levels}
+#' \item{B}{screw machine - 4 levels}
+#' \item{C}{time of day - 3 levels (8 am, 11 am, 3 pm)}
+#' \item{Y}{(length - 4.38) x 100 inches}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"steel.bar"
+
+#' Step
+#'
+#' An experiment to investigate the effects on heart rate due to the use of a step machine.
+#' (Chapter 11, Table 11.14)
+#' @format A data frame with 30 rows and 5 variables:
+#' \describe{
+#'  \item{BLOCK}{subject}
+#'  \item{HEIGHT}{step height - 2 levels (5.75 or 11.5 inches)}
+#'  \item{FREQ}{step frequency - 3 levels (14, 21, 28 steps per minute)}
+#'  \item{TRTMT}{treatment combinations - 6 levels}
+#'  \item{PULSE}{pulse rate in beats per minute}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"step"
+
+#' Sugar beet
+#'
+#' An experiment on the yield of sugar beet. (Chapter 14, Table 14.20)
+#' @format A data frame with 27 rows and 5 variables:
+#' \describe{
+#'  \item{BLOCK}{experimental field block}
+#'  \item{N}{nitogen - 3 levels}
+#'  \item{P}{phosphate - 3 levels}
+#'  \item{K}{potassium - 3 levels}
+#'  \item{Y}{yield of sugar beet}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"sugar.beet"
+
+#' Survival
+#'
+#' An experiment on the survival times of animals to whom a poison and treatment have been administered.
+#' (Chapter 6, Table 6.23)
+#' @format A data frame with 48 rows and 3 variables:
+#' \describe{
+#'  \item{POISON}{amount of poison - 3 levels}
+#'  \item{TRTMT}{treatment - 4 levels}
+#'  \item{TIME}{survival time (units of 10 hours)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"survival"
+
+#' Systolic blood pressure
+#'
+#' A pilot experiment to investigate the effect of jogging on systolic blood pressure.
+#' (Chapter 8, Table 8.12)
+#' @format A data frame with 10 rows and 3 variables:
+#' \describe{
+#'  \item{JOG}{jogging time}
+#'  \item{SBP}{systolic blood pressure}
+#'  \item{ORDER}{order of collection}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"systolic.blood.pressure"
