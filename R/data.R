@@ -1659,4 +1659,63 @@
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "trout"
 
+#' Video game
+#'
+#' An experiment to evaluate in which of five sound modes a person best plays a certain
+#' video game. (Chapter 12, Table 12.13)
+#' @format A data frame with 25 rows and 4 variables:
+#' \describe{
+#'  \item{ORDER}{time order}
+#'  \item{DAY}{day video game played}
+#'  \item{TRTMT}{sound mode - 5 levels}
+#'  \item{Y}{game score}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"video.game"
+
+#' Viscosity
+#'
+#' An experiment to determine the viscosity of a polymeric material. (Chapter 18, Table 18.10)
+#' @format A data frame with 80 rows and 5 variables:
+#' \describe{
+#'  \item{Sample}{sample identifier - 2 levels}
+#'  \item{Aliquot}{aliquot identifier - 10 levels}
+#'  \item{Subali}{subaliquots - 2 levels}
+#'  \item{Part}{the part of the subaliquot - 2 levels}
+#'  \item{Visc}{viscosity determination}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"viscosity"
+
+#' Vitamin D
+#'
+#' A study concerning the potency of different doses and preparations of vitamin D. (Chapter 11,
+#' Table 11.26)
+#' @format A data frame with 71 rows and 3 variables:
+#' \describe{
+#'  \item{BLOCK}{litter of rats - 18 levels}
+#'  \item{TRTMT}{treatments - 6 levels}
+#'  \item{Y}{response}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"vitamin.d"
+
+#' Voltage
+#'
+#' An experiment on reducing the variability of voltage regulators fitted to motor cars.
+#' (Chapter 18, Table 18.6)
+#' @format A data frame with 160 rows and 4 variables:
+#' \describe{
+#'  \item{SETTING}{setting station - 6 levels}
+#'  \item{REGUL}{regulator identifier}
+#'  \item{TESTING}{testing station - 4 levels}
+#'  \item{VOLTG}{voltages}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"voltage"
+
 

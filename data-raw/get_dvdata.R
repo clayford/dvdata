@@ -23,4 +23,4 @@ fractionation$PCE <- suppressWarnings(as.numeric(as.character(fractionation$PCE)
 save(fractionation, file="data/fractionation.rdata")
 
 torque.optimization.2$AB <- factor(torque.optimization.2$AB)
-save(fractionation, file="data/torque.optimization.2.rdata")
+save(torque.optimization.2, file="data/torque.optimization.2.rdata")
