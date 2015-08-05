@@ -20,7 +20,7 @@ bleach
 \description{
 An experiment to study the effect of different bleach concentrations and
 the effect of stain type on speed of stain removal from a piece of cloth.
-(Chapter 6)
+(Chapter 6, Table 6.3)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

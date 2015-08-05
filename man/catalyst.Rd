@@ -18,7 +18,7 @@ catalyst
 }
 \description{
 An experiment that investigates the effect of four reagents and three catalysts
-on production rate in a catalyst plant. (Chapter 5)
+on production rate in a catalyst plant. (Chapter 5, Table 5.16)
 }
 \examples{
 names(catalyst) <- tolower(names(catalyst))

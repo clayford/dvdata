@@ -22,7 +22,7 @@ drug
 }
 \description{
 An experiment to evaluate eight drugs for the treatment of arthritis. The
-experimental units were rats. (Chapter 19)
+experimental units were rats. (Chapter 19, Table 19.12)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

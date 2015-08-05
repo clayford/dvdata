@@ -20,7 +20,7 @@ aerosol
 \description{
 Experiment to determine whether the current standard aerosol that was
 used for testing respirator filters could be replaced by an alternative
-aerosol. (Chapter 18)
+aerosol. (Chapter 18, Table 18.13)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

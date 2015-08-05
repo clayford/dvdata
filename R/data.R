@@ -19,7 +19,7 @@
 #'
 #' Experiment to determine whether the current standard aerosol that was
 #' used for testing respirator filters could be replaced by an alternative
-#' aerosol. (Chapter 18)
+#' aerosol. (Chapter 18, Table 18.13)
 #' @format A data frame with 24 rows and 4 variables:
 #' \describe{
 #'   \item{MANUF}{Manufacturer}
@@ -34,7 +34,7 @@
 #' Air freshener
 #'
 #' Experiment to compare the effects of four price-and-display treatments on the
-#' sales of a brand of air freshener. (Chapter 14)
+#' sales of a brand of air freshener. (Chapter 12, Table 12.14)
 #' @format A data frame with 32 rows and 4 variables:
 #' \describe{
 #'  \item{WEEK}{one-week periods}
@@ -49,7 +49,7 @@
 #' Air rifle
 #'
 #' Experiment to examine the accuracy of an air rifle shooting at a target.
-#' (Chapter 11)
+#' (Chapter 11, Table 11.27)
 #' @format A data frame with 48 rows and 4 variables:
 #' \describe{
 #'  \item{BLOCK}{paper covering the target, changed after every 4 observations}
@@ -64,7 +64,7 @@
 #' Air velocity
 #'
 #' Experiment to examine the position of maximum velocity of air blown down
-#' the space between a roughened rod and a smooth pipe surrounding it. (Chapter 6)
+#' the space between a roughened rod and a smooth pipe surrounding it. (Chapter 6, Table 6.11)
 #' @format A data frame with 18 rows and 4 variables:
 #' \describe{
 #'  \item{TC}{treatment code}
@@ -80,7 +80,7 @@
 #' Alcohol
 #'
 #' Alcohol concentrations of samples of alcohol solutions taken from six bottles of
-#' alcohol solution randomly selected from a large batch. (Chapter 17)
+#' alcohol solution randomly selected from a large batch. (Chapter 17, Table 17.16)
 #' @format A data frame with 24 rows and 2 variables:
 #' \describe{
 #'  \item{BOTTLE}{Bottle of alcohol solution}
@@ -93,8 +93,8 @@
 #' Algorithm
 #'
 #' An experiement to compare the speeds of three computer algorithms for selecting
-#' a simple random sample of size m without replacement from a population of
-#' size N.
+#' a simple random sample of size \emph{m} without replacement from a population of
+#' size \emph{N}. (Chapter 10, Table 10.26)
 #' @format A data frame with 36 rows and 6 variables:
 #' \describe{
 #'  \item{DAY}{day algorithm was run}
@@ -111,7 +111,7 @@
 #' Ammunition
 #'
 #' An experiment concerning the muzzle velocity characteristics of ammunition for a
-#' field artillery weapon. (Chapter 17)
+#' field artillery weapon. (Chapter 17, Table 17.5)
 #' @format A data frame with 32 rows and 3 variables:
 #' \describe{
 #'  \item{PROJTL}{projectile lot}
@@ -125,7 +125,7 @@
 #' Balloon
 #'
 #' Experiment to determine if balloons of different colors are similar in terms
-#' of the time taken for inflation to a diameter of 7 inches. (Chapter 3)
+#' of the time taken for inflation to a diameter of 7 inches. (Chapter 3, Table 3.11)
 #' @format A data frame with 32 rows and 3 variables:
 #' \describe{
 #'  \item{ORDER}{order of inflation}
@@ -139,7 +139,7 @@
 #' Banana
 #'
 #' An experiment to determine if lighting conditions and storage method affect
-#' percentage of blackened skin on bananas (Chapter 10)
+#' percentage of blackened skin on bananas (Chapter 10, Table 10.12)
 #' @format A data frame with 48 rows and 4 variables:
 #' \describe{
 #'  \item{LIGHT}{lighting conditions - 2 levels}
@@ -154,7 +154,7 @@
 #' Battery
 #'
 #' An experiment to determine what type of nonrechargeable battery was most
-#' economical. (Chapter 2)
+#' economical. (Chapter 2, Table 2.8)
 #' @format A data frame with 16 rows and 5 variables:
 #' \describe{
 #'  \item{TYPEBAT}{type of battery - four levels}
@@ -170,7 +170,7 @@
 #' Bean soaking
 #'
 #' An experiment to compare the effects of 5 different soaking times on the growth
-#' rate of mung bean seeds. (Chapter 4)
+#' rate of mung bean seeds. (Chapters 4 & 8, Table 8.6)
 #' @format A data frame with 68 rows and 2 variables.
 #' \describe{
 #'  \item{TIME}{soaking times - 5 levels}
@@ -183,7 +183,7 @@
 #' Beef
 #'
 #' An experiment to compare the effects of cold storage on the tenderness of beef
-#' roasts. (Chapter 11)
+#' roasts. (Chapter 11, Table 11.24)
 #' @format A data frame with 30 rows and 3 variables:
 #' \describe{
 #'  \item{BLOCK}{blocks}
@@ -197,7 +197,7 @@
 #' Bicycle
 #'
 #' An experiment to compare crank rates required to keep a bicycle at certain
-#' speeds, when the bicycle was in 12th gear on flat ground.(Chapter 5)
+#' speeds, when the bicycle was in 12th gear on flat ground.(Chapter 5, Table 5.17)
 #' @format A data frame with 15 rows and 2 variables:
 #' \describe{
 #'  \item{TRT}{speeds - 5 levels (5, 10, 15, 20 and 25 mph)}
@@ -209,7 +209,7 @@
 
 #' Biscuits
 #'
-#' An experiment to study how to make fluffy biscuits. (Chapter 10)
+#' An experiment to study how to make fluffy biscuits. (Chapter 10, Table 10.25)
 #' @format A data frame with 72 rows and 3 variables:
 #' \describe{
 #'  \item{BLOCK}{oven runs}
@@ -225,7 +225,7 @@
 #'
 #' An experiment to study the effect of different bleach concentrations and
 #' the effect of stain type on speed of stain removal from a piece of cloth.
-#' (Chapter 6)
+#' (Chapter 6, Table 6.3)
 #' @format A data frame with 45 rows and 4 variables:
 #' \describe{
 #'  \item{CONC}{bleach concentration - 3 levels}
@@ -240,7 +240,7 @@
 #' Buttermilk biscuits
 #'
 #' An experiment to find out which brands of refrigerated buttermilk biscuit
-#' give rise to the fluffiest biscuits. (Chapter 17)
+#' give rise to the fluffiest biscuits. (Chapter 17, Table 17.17)
 #' @format A data frame with 30 rows and 4 variables:
 #' \describe{
 #'  \item{BLOCK}{block level}
@@ -255,7 +255,7 @@
 #' Candle
 #'
 #' An experiment to determine whether different colored cake candles burn at different
-#' speeds. (Chapter 10)
+#' speeds. (Chapter 10, Table 10.20)
 #' @format A data frame with 64 rows and 3 variables:
 #' \describe{
 #'  \item{BLOCK}{experimenter}
@@ -269,7 +269,7 @@
 #' Catalyst
 #'
 #' An experiment that investigates the effect of four reagents and three catalysts
-#' on production rate in a catalyst plant. (Chapter 5)
+#' on production rate in a catalyst plant. (Chapter 5, Table 5.16)
 #' @format A data frame with 24 rows and 3 variables:
 #' \describe{
 #'  \item{ORDER}{time order}
@@ -291,7 +291,7 @@
 #' Cigarette
 #'
 #' An experiment to determine factors that affect the length of time that a
-#' cigarette will burn. (Chapter 19)
+#' cigarette will burn. (Chapter 19, Table 19.14)
 #' @format A data frame with 60 rows and 6 variables:
 #'\describe{
 #'  \item{order}{time order}
@@ -308,7 +308,7 @@
 #' Clean wool
 #'
 #' An experiment to estimate the variability in "clean content" of bales of wool
-#' (Chapter 17)
+#' (Chapter 17, Table 17.1)
 #' @format A data frame with 28 rows and 2 variables:
 #' \describe{
 #'  \item{bale}{bale - 7 levels}
@@ -322,7 +322,7 @@
 #' Colorfastness
 #'
 #' An experiment to investigate the linear and quadratic effects of the number of
-#' washes on the color change of a denim fabric. (Chapter 10)
+#' washes on the color change of a denim fabric. (Chapter 10, Table 10.17)
 #' @format A data frame with 180 rows and 3 variables:
 #' \describe{
 #'  \item{BLOCK}{experimenter}
@@ -337,7 +337,7 @@
 #'
 #' An experiment to investigate the way in which different degrees of twist (measured
 #' in turns per inch) affect the breakage rate of the roving, and to compare the
-#' ordinary flyer with the newly devised special flyer. (Chapter 2)
+#' ordinary flyer with the newly devised special flyer. (Chapters 2 & 10, Table 2.3)
 #' @format A data frame with 78 rows and 5 variables:
 #' \describe{
 #'  \item{BLOCK}{a machine with a single operator}
@@ -353,7 +353,7 @@
 #' Dairy Cow
 #'
 #' An experiment that studies the effect of three diets on the milk production
-#' of dairy cows.
+#' of dairy cows. (Chapter 12, Table 12.6)
 #' @format A data frame with 18 rows and 4 variables:
 #' \describe{
 #'  \item{COW}{cow identifier}
@@ -369,7 +369,7 @@
 #'
 #' An experiment to explore the effect of four factors on the efficiency of a
 #' decontamination process for the removal of radioactive isotopes from liquid waste.
-#' (Chapter 13)
+#' (Chapter 13, Table 13.13)
 #' @format A data frame with 32 rows and 6 variables:
 #' \describe{
 #'  \item{BLOCK}{day of the experiment}
@@ -390,7 +390,7 @@
 #'
 #' An experiment to explore the effect of four factors on the efficiency of a
 #' decontamination process for the removal of radioactive isotopes from liquid waste.
-#' (Chapter 13)
+#' (Chapter 13, Table 13.23)
 #' @format A data frame with 32 rows and 6 variables:
 #' \describe{
 #'  \item{BLOCK}{day of the experiment}
@@ -410,7 +410,7 @@
 #' Dessert
 #'
 #' An experiment to determine whether melting rate of a frozen dessert will be
-#' affected by the addition of salt and/or sugar. (Chapter 5)
+#' affected by the addition of salt and/or sugar. (Chapter 5, Table 5.18)
 #' @format A data frame with 18 rows and 6 variables
 #' \describe{
 #'  \item{POSITION}{position on table during melting}
@@ -426,7 +426,7 @@
 
 #' Detergent
 #'
-#' An experiment to compare dishwashing detergent formulations. (Chapter 11)
+#' An experiment to compare dishwashing detergent formulations. (Chapter 11, Table 11.8)
 #' @format A data frame with 36 rows and 5 variables:
 #' \describe{
 #'  \item{BLOCK}{blocking factor - 12 levels}
@@ -442,7 +442,7 @@
 #' Drill advance
 #'
 #' A single replicate 2 x 2 x 2 experiment to study the effects of four treatment
-#' factors on the rate of advance of a small stone drill. (Chapter 7)
+#' factors on the rate of advance of a small stone drill. (Chapter 7, Table 7.4)
 #' @format A data frame with 16 rows and 6 variables:
 #' \describe{
 #'  \item{A}{load on the drill}
@@ -473,7 +473,7 @@
 #' Drug
 #'
 #' An experiment to evaluate eight drugs for the treatment of arthritis. The
-#' experimental units were rats. (Chapter 19)
+#' experimental units were rats. (Chapter 19, Table 19.12)
 #' @format A data frame with 64 rows and 7 variables
 #' \describe{
 #'  \item{BLOCK}{day of experiment}
@@ -491,7 +491,7 @@
 #' Dye
 #'
 #' An experiment that investigates three reactants in the manufacture of a cotton
-#' dyestuff.
+#' dyestuff. (Chapter 14, Table 14.6)
 #' @format A data frame with 27 rows and 5 variables:
 #' \describe{
 #'  \item{BLK}{block identifier}
@@ -509,7 +509,7 @@
 #' Erythrocyte
 #'
 #' An experiment that investigates the effect of sulfamerazine on the number
-#' of erythrocites per cubic millimeter of blood in brown trout. (Chapter 18)
+#' of erythrocites per cubic millimeter of blood in brown trout. (Chapter 18, Table 18.12)
 #' @format A data frame with 80 rows and 4 variables
 #' \describe{
 #'  \item{SULF}{levels of sulfamerazine (0, 5, 10, 15)}
@@ -524,7 +524,7 @@
 #' Evaporation
 #'
 #' An experiment on the evaporation rate of water under different conditions.
-#' (Chapter 7)
+#' (Chapter 7, Table 7.19)
 #' @format A data frame with 16 rows and 4 variables
 #' \describe{
 #'  \item{A}{placement of water - cup (1) or plate (2)}
@@ -543,7 +543,7 @@
 #' Exam paper
 #'
 #' An experiment to see whether student average exam scores differ according to
-#' exam version and color paper. (Chapter 10)
+#' exam version and color paper. (Chapter 10, Table 10.29)
 #' @format A data frame with 130 rows and 4 variables
 #' \describe{
 #'  \item{BLOCK}{block indentifier, accoding to the student's TA}
@@ -561,7 +561,7 @@
 
 #' Exercise bicycle
 #'
-#' An experiment to investigate effects of exercise on pulse rate. (Chapter 12)
+#' An experiment to investigate effects of exercise on pulse rate. (Chapter 12, Table 12.4)
 #' @format A data frame with 24 rows and 7 variables:
 #' \describe{
 #'  \item{DAY}{day of experiment}
@@ -579,7 +579,7 @@
 #' Exercise
 #'
 #' An experiment to examine how pulse rate changes due to different exercise
-#' intensities and programs on a stationary bicycle. (Chapter 10)
+#' intensities and programs on a stationary bicycle. (Chapter 10, Table 10.30)
 #' @format A data frame with 36 rows and 7 variables.
 #' \describe{
 #'  \item{BLOCK}{amount of exercise - 3 levels (infrequent, medium, frequent)}
@@ -598,7 +598,7 @@
 #' Field
 #'
 #' Results of a field experiment on the yield of beans using various types of
-#' fertilizer. (Chapter 13)
+#' fertilizer. (Chapter 13, Table 13.4)
 #' @format A data frame with 16 rows and 7 variables:
 #' \describe{
 #'  \item{BLK}{block of land}
@@ -615,7 +615,7 @@
 
 #' Film viscosity
 #'
-#' An experiment involving viscosity of film-forming solution. (Chapter 16)
+#' An experiment involving viscosity of film-forming solution. (Chapter 16, Table 16.26)
 #' @format A data frame with 18 rows and 8 variables:
 #' \describe{
 #'  \item{POINT}{design point}
@@ -634,7 +634,7 @@
 #' Fishing line
 #'
 #' An experiment to compare the strength of two brands of fishing line exposed to two
-#' different levels of stress. (Chapter 19)
+#' different levels of stress. (Chapter 19, Table 19.13)
 #' @format A data frame with 16 rows and 4 variables:
 #' \describe{
 #'  \item{REEL}{the whole plots}

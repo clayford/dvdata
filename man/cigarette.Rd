@@ -21,7 +21,7 @@ cigarette
 }
 \description{
 An experiment to determine factors that affect the length of time that a
-cigarette will burn. (Chapter 19)
+cigarette will burn. (Chapter 19, Table 19.14)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

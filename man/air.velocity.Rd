@@ -20,7 +20,7 @@ air.velocity
 }
 \description{
 Experiment to examine the position of maximum velocity of air blown down
-the space between a roughened rod and a smooth pipe surrounding it. (Chapter 6)
+the space between a roughened rod and a smooth pipe surrounding it. (Chapter 6, Table 6.11)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

@@ -19,7 +19,7 @@ air.freshener
 }
 \description{
 Experiment to compare the effects of four price-and-display treatments on the
-sales of a brand of air freshener. (Chapter 14)
+sales of a brand of air freshener. (Chapter 12, Table 12.14)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

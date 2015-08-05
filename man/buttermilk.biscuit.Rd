@@ -19,7 +19,7 @@ buttermilk.biscuit
 }
 \description{
 An experiment to find out which brands of refrigerated buttermilk biscuit
-give rise to the fluffiest biscuits. (Chapter 17)
+give rise to the fluffiest biscuits. (Chapter 17, Table 17.17)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

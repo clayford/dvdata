@@ -19,7 +19,7 @@ dairy.cow
 }
 \description{
 An experiment that studies the effect of three diets on the milk production
-of dairy cows.
+of dairy cows. (Chapter 12, Table 12.6)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

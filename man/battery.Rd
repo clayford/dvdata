@@ -20,7 +20,7 @@ battery
 }
 \description{
 An experiment to determine what type of nonrechargeable battery was most
-economical. (Chapter 2)
+economical. (Chapter 2, Table 2.8)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

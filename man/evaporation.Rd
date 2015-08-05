@@ -19,7 +19,7 @@ evaporation
 }
 \description{
 An experiment on the evaporation rate of water under different conditions.
-(Chapter 7)
+(Chapter 7, Table 7.19)
 }
 \examples{
 aggregate(Y ~ A + B + C, data=evaporation, mean)

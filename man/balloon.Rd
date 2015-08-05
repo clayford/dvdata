@@ -18,7 +18,7 @@ balloon
 }
 \description{
 Experiment to determine if balloons of different colors are similar in terms
-of the time taken for inflation to a diameter of 7 inches. (Chapter 3)
+of the time taken for inflation to a diameter of 7 inches. (Chapter 3, Table 3.11)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

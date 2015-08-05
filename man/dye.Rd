@@ -22,7 +22,7 @@ dye
 }
 \description{
 An experiment that investigates three reactants in the manufacture of a cotton
-dyestuff.
+dyestuff. (Chapter 14, Table 14.6)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

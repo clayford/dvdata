@@ -18,7 +18,7 @@ ammunition
 }
 \description{
 An experiment concerning the muzzle velocity characteristics of ammunition for a
-field artillery weapon. (Chapter 17)
+field artillery weapon. (Chapter 17, Table 17.5)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

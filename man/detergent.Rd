@@ -19,7 +19,7 @@
 detergent
 }
 \description{
-An experiment to compare dishwashing detergent formulations. (Chapter 11)
+An experiment to compare dishwashing detergent formulations. (Chapter 11, Table 11.8)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

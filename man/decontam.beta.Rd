@@ -25,7 +25,7 @@ decontam.beta
 \description{
 An experiment to explore the effect of four factors on the efficiency of a
 decontamination process for the removal of radioactive isotopes from liquid waste.
-(Chapter 13)
+(Chapter 13, Table 13.23)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

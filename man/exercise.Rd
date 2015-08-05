@@ -22,7 +22,7 @@ exercise
 }
 \description{
 An experiment to examine how pulse rate changes due to different exercise
-intensities and programs on a stationary bicycle. (Chapter 10)
+intensities and programs on a stationary bicycle. (Chapter 10, Table 10.30)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

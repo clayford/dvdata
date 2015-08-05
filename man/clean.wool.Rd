@@ -18,7 +18,7 @@ clean.wool
 }
 \description{
 An experiment to estimate the variability in "clean content" of bales of wool
-(Chapter 17)
+(Chapter 17, Table 17.1)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

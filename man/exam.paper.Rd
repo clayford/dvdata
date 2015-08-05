@@ -19,7 +19,7 @@ exam.paper
 }
 \description{
 An experiment to see whether student average exam scores differ according to
-exam version and color paper. (Chapter 10)
+exam version and color paper. (Chapter 10, Table 10.29)
 }
 \examples{
 aggregate(Y ~ A*B, data=exam.paper, mean)

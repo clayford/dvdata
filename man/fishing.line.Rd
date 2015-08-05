@@ -19,7 +19,7 @@ fishing.line
 }
 \description{
 An experiment to compare the strength of two brands of fishing line exposed to two
-different levels of stress. (Chapter 19)
+different levels of stress. (Chapter 19, Table 19.13)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

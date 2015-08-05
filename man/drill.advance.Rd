@@ -21,7 +21,7 @@ drill.advance
 }
 \description{
 A single replicate 2 x 2 x 2 experiment to study the effects of four treatment
-factors on the rate of advance of a small stone drill. (Chapter 7)
+factors on the rate of advance of a small stone drill. (Chapter 7, Table 7.4)
 }
 \examples{
 apply(drill.advance[,1:4],2,table) # each factor observed at 2 levels

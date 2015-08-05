@@ -17,7 +17,7 @@ bean.soaking
 }
 \description{
 An experiment to compare the effects of 5 different soaking times on the growth
-rate of mung bean seeds. (Chapter 4)
+rate of mung bean seeds. (Chapters 4 & 8, Table 8.6)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

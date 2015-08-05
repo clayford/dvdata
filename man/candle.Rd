@@ -18,7 +18,7 @@ candle
 }
 \description{
 An experiment to determine whether different colored cake candles burn at different
-speeds. (Chapter 10)
+speeds. (Chapter 10, Table 10.20)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

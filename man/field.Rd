@@ -22,7 +22,7 @@ field
 }
 \description{
 Results of a field experiment on the yield of beans using various types of
-fertilizer. (Chapter 13)
+fertilizer. (Chapter 13, Table 13.4)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

@@ -22,7 +22,7 @@
 film.viscosity
 }
 \description{
-An experiment involving viscosity of film-forming solution. (Chapter 16)
+An experiment involving viscosity of film-forming solution. (Chapter 16, Table 16.26)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
