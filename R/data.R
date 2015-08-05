@@ -1718,4 +1718,139 @@
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "voltage"
 
+#' Wafer 1
+#'
+#' An experiment to reduce the variability of the thickness of an "epitaxial layer" deposited
+#' onto silicon wafers during the manufacture of integrated circuit devices. Wafer 1 is
+#' is the orthogonal array presented in Chapter 15, Table 15.25.
+#' @format A data frame of 16 rows and 17 variables. (See example 15.6.1 for explanation of
+#' variables.)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{wafer.2}}
+"wafer.1"
 
+#' Wafer 2
+#'
+#' An experiment to reduce the variability of the thickness of an "epitaxial layer" deposited
+#' onto silicon wafers during the manufacture of integrated circuit devices. Wafer 2 is the treatment combinations and response variables presented Chapter 15, Table 15.26.
+#' @format A data frame of 16 rows and 10 variables. (See Table 15.24 for explanation of
+#' treatment factors and their levels for the experiment.)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+#' @seealso \code{\link{wafer.1}}
+"wafer.2"
+
+#' Washing power
+#'
+#' An experiment that investigates the washing power of a solution as measured by the
+#' reflectance of pieces of cotton cloth after washing. (Chapter 7, Table 7.24)
+#' @format A data frame with 27 rows and 4 variables:
+#' \describe{
+#'  \item{A}{sodium carbonate - 3 levels (0, 0.05, or 0.1\%)}
+#'  \item{B}{detergent - 3 levels (0.05, 0.1, or 0.2\%)}
+#'  \item{C}{sodium carboxymethyl cellulose - 3 levels (0, 0.025, or 0.05\%)}
+#'  \item{Y}{reflectance}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"washing.power"
+
+#' Water boiling
+#'
+#' An experiment to examine the amount of time taken to boil a given amount of water on four
+#' different burners of a stove with various amounts of salt added. (Chapter 6, Table 6.24)
+#' @format A data frame with 48 rows and 4 variables:
+#' \describe{
+#'  \item{BURNER}{burner identifier}
+#'  \item{TSPSALT}{amount of salt added to water}
+#'  \item{TIME}{time taken to boil water}
+#'  \item{ORDER}{run order}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"water.boiling"
+
+#' Weathering
+#'
+#' An experiment to compare the effects of different types of weathering on the breaking
+#' strength of marine fabrics used for sails. (Chapter 7, Table 7.18)
+#' @format A data frame with 36 rows and 5 variables:
+#' \describe{
+#'  \item{E}{exposure conditions - 2 levels (continuous light, alternating light and
+#'  condensation)}
+#'  \item{A}{exposure levels - 3 levels (1200, 2400, 3600 AFU)}
+#'  \item{D}{direction of cut of the fabric - 2 levels (warp, filling)}
+#'  \item{F}{fabic - 3 levels (polyester, acrylic, nylon)}
+#'  \item{Y}{percent change in breaking strength}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"weathering"
+
+#' Weight lifting
+#'
+#' An experiment on the effect of lifting different weights with legs either straight or bent
+#' on pulse rate. (Chapter 6, Table 6.19)
+#' @format A data frame with 66 rows and 4 variables:
+#' \describe{
+#'  \item{ORDER}{run order}
+#'  \item{LEGS}{leg position - 2 levels (straight or bent)}
+#'  \item{WEIGHT}{weight - 3 levels (50, 75, 100 lb)}
+#'  \item{BPFS}{pulse beats per 15 seconds}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"weight.lifting"
+
+#' Weld strength
+#'
+#' An experiment to determine effect of gage bar setting and time of welding on the strength
+#' of a weld in a steel bar. (Chapter 6, Table 6.20)
+#' @format A data frame with 30 rows and 4 variables:
+#' \describe{
+#'  \item{GAGE}{gage bar setting - 3 levels}
+#'  \item{TIME}{time of welding - 5 levels}
+#'  \item{TRTMT}{treatment combinations - 15 levels}
+#'  \item{STRNTH}{strength of weld}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"weld.strength"
+
+#' Welding
+#'
+#' An experiment that examines the pull strength of welds resulting from a certain welding
+#' process. The experiment concerns 21 factors. (Chapter 15, Table 15.10)
+#' @format A data frame with 32 rows and 22 variables. (See example 15.2.2 for explanation of
+#' variables.)
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"welding"
+
+#' Wildflower
+#'
+#' An experiment to determine whether or not the germination rate of an endangered species of
+#' plant is affected by storage temperature or storage method. (Chapter 5, Table 5.19)
+#' @format A data frame with 40 rows and 3 variables:
+#' \describe{
+#'  \item{TEMP}{temperature levels - 2 levels (spring, summer)}
+#'  \item{STRAT}{storage methods - 2 levels (stratified, unstratified)}
+#'  \item{Y}{number of germinated seeds}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"wildflower"
+
+#' Zinc plating
+#'
+#' An experiment to examine effect of bracket thickness on zinc plating. (Chapter 9, Table 9.7)
+#' @format A data frame with 12 rows and 3 variables:
+#' \describe{
+#'  \item{VENDOR}{vendor indentifier - 3 levels}
+#'  \item{X}{bracket thickness}
+#'  \item{Y}{zinc plating thickness}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"zinc.plating"
