@@ -24,3 +24,6 @@ save(fractionation, file="data/fractionation.rdata")
 
 torque.optimization.2$AB <- factor(torque.optimization.2$AB)
 save(torque.optimization.2, file="data/torque.optimization.2.rdata")
+
+heartlung.pump$RPM <- factor(heartlung.pump$RPM)
+save(heartlung.pump, file="data/heartlung.pump.rdata")
