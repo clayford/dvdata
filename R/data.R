@@ -288,6 +288,23 @@
 #' with(catalyst, tapply(yield, treat, var))
 "catalyst"
 
+#' Catalytic reaction
+#'
+#' An experiment carrying out a catalytic gaseous synthesis reaction to remove the product as a
+#' liquid solution. (Chapter 13, Table 13.27)
+#' @format A data frame with 16 rows and 6 variables:
+#' \describe{
+#'  \item{RUN}{run order}
+#'  \item{BLOCK}{block identifier - 4 levels}
+#'  \item{A}{converter reaction temperature - 2 levels}
+#'  \item{B}{throughput rate through the converter - 2 levels}
+#'  \item{C}{concentration of the active ingredient in the makeup gas - 2 levels}
+#'  \item{Y}{strength of the product solution}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"catalytic.reaction"
+
 #' Cigarette
 #'
 #' An experiment to determine factors that affect the length of time that a
@@ -318,6 +335,22 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "clean.wool"
+
+#' Coil
+#'
+#' An experiment to examine the variability of outside diameters of coils of wire. (Chapter 13,
+#' Table 13.15)
+#' @format A data frame with 32 rows and 5 variables:
+#' \describe{
+#'  \item{BLK}{block identifier - 4 levels}
+#'  \item{A}{two winding machines, coded 0, 1}
+#'  \item{B}{two wire socks, coded 0, 1}
+#'  \item{C}{two positions on the coil, coded 0, 1}
+#'  \item{Y}{variability of outside diameters of coils of wire}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"coil"
 
 #' Colorfastness
 #'
@@ -393,7 +426,7 @@
 #' (Chapter 13, Table 13.23)
 #' @format A data frame with 32 rows and 6 variables:
 #' \describe{
-#'  \item{BLOCK}{day of the experiment}
+#'  \item{BLK}{day of the experiment}
 #'  \item{A}{amount of aluminum sulphate added to waste - 2 levels
 #'  (0.4 and 2.5 g per liter)}
 #'  \item{B}{amount of barium chloride added to waste - 2 levels
@@ -1074,6 +1107,7 @@
 #'  \item{WP}{whole plot - 18 levels}
 #'  \item{A}{variety of oat - 3 levels}
 #'  \item{B}{amount of manure - 4 levels}
+#'  \item{Y}{yield of oats (in quarter lb)}
 #' }
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
@@ -1371,6 +1405,26 @@
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 "resin.impurity"
 
+#' Resin moisture
+#'
+#' An experiment to determine whether specific drying conditions for a process could yield a
+#' resin that is sufficiently devoid of moisture and low-molecular-weight components. (Chapter
+#' 16, Table 16.28)
+#' @format A data frame with 17 rows and 8 variables:
+#' \describe{
+#'  \item{POINT}{design point}
+#'  \item{zT}{coded factor levels for \code{xT}}
+#'  \item{xT}{temperature - 3 levels (150, 185, 220 Celsius)}
+#'  \item{zH}{coded factor levels for \code{xH}}
+#'  \item{xH}{relative humidity - 3 levels (0, 50, 100 \%)}
+#'  \item{zP}{coded factor levels for \code{xP}}
+#'  \item{xP}{air pressure - 3 levels (1, 5, 9 torr)}
+#'  \item{y}{resin degradation (ppm)}
+#' }
+#' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
+#' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+"resin.moisture"
+
 #' Respitory exchange ratio
 #'
 #' An experiment to compare the effects of inpatient and outpatient protocols on the in-laboratory measurement
@@ -1640,7 +1694,7 @@
 #' t2 <- as.data.frame(do.call(rbind, lapply(g, mslns)))
 #' names(t2) <- c("MEAN","VAR","LNV")
 #' t2$AB <- unique(with(torque.optimization.1,
-#'                 interaction(A,B,sep="",lex.order = T)))
+#'                 interaction(A,B,sep="",lex.order = TRUE)))
 #' rownames(t2) <- NULL
 #' t2 <- t2[,c(4,1:3)]
 #' all.equal(t2, torque.optimization.2, tolerance = 1.5e-3)

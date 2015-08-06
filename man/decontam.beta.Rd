@@ -6,7 +6,7 @@
 \title{Decontamination (beta particles)}
 \format{A data frame with 32 rows and 6 variables:
 \describe{
- \item{BLOCK}{day of the experiment}
+ \item{BLK}{day of the experiment}
  \item{A}{amount of aluminum sulphate added to waste - 2 levels
  (0.4 and 2.5 g per liter)}
  \item{B}{amount of barium chloride added to waste - 2 levels

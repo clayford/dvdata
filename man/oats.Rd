@@ -10,6 +10,7 @@
  \item{WP}{whole plot - 18 levels}
  \item{A}{variety of oat - 3 levels}
  \item{B}{amount of manure - 4 levels}
+ \item{Y}{yield of oats (in quarter lb)}
 }}
 \source{
 \url{http://www.wright.edu/~dan.voss/bookdata/data.html}

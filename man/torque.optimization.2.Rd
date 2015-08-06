@@ -32,7 +32,7 @@ g <- with(torque.optimization.1, split(Y, list(B,A)))
 t2 <- as.data.frame(do.call(rbind, lapply(g, mslns)))
 names(t2) <- c("MEAN","VAR","LNV")
 t2$AB <- unique(with(torque.optimization.1,
-                interaction(A,B,sep="",lex.order = T)))
+                interaction(A,B,sep="",lex.order = TRUE)))
 rownames(t2) <- NULL
 t2 <- t2[,c(4,1:3)]
 all.equal(t2, torque.optimization.2, tolerance = 1.5e-3)
