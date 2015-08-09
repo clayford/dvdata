@@ -60,3 +60,39 @@ save(battery, file="data/battery.rdata")
 
 bean.soaking$TIME <- factor(bean.soaking$TIME)
 save(bean.soaking,file="data/bean.soaking.rdata")
+
+beef[,1:2] <- lapply(beef[,1:2],factor)
+save(beef, file="data/beef.rdata")
+
+bicycle$TRT <- factor(bicycle$TRT)
+save(bicycle, file="data/bicycle.rdata")
+
+biscuit[,1:2] <- lapply(biscuit[,1:2],factor)
+save(biscuit, file="data/biscuit.rdata")
+
+bleach[,1:2] <- lapply(bleach[,1:2],factor)
+save(bleach, file="data/bleach.rdata")
+
+buttermilk.biscuit[,1:3] <- lapply(buttermilk.biscuit[,1:2],factor)
+save(buttermilk.biscuit, file="data/buttermilk.biscuit.rdata")
+
+candle[,1:2] <- lapply(candle[,1:2],factor)
+save(candle, file="data/candle.rdata")
+
+# well this is getting repetitive....
+
+# function to create vectors
+cvec <- function(dat,ind){
+  x <- get(dat)
+  x[,ind] <- lapply(x[,ind],factor)
+  assign(dat,x)
+  save(list=dat,file=paste0("data/", dat, ".rdata"))
+}
+# quick test
+# test <- data.frame(g1=rep(1:3,3),g2=rep(1:3,3),y=rnorm(9))
+# cvec("test",1:2)
+
+# have to build package to verify
+
+cvec("catalyst",1:2)
+cvec("catalytic.reaction",1:5)
