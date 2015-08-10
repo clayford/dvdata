@@ -82,17 +82,26 @@ save(candle, file="data/candle.rdata")
 # well this is getting repetitive....
 
 # function to create vectors
+
 cvec <- function(dat,ind){
-  x <- get(dat)
+  d <- deparse(substitute(dat))
+  x <- get(d)
   x[,ind] <- lapply(x[,ind],factor)
-  assign(dat,x)
-  save(list=dat,file=paste0("data/", dat, ".rdata"))
+  assign(deparse(substitute(dat)),x)
+  save(list=d,file=paste0("data/", d, ".rdata"))
 }
+
+
 # quick test
 # test <- data.frame(g1=rep(1:3,3),g2=rep(1:3,3),y=rnorm(9))
-# cvec("test",1:2)
+# str(test)
+# cvec(test,1:2)
+# rm(test)
+# load("data/test.rdata")
+# file.remove("data/test.rdata")
 
 # have to build package to verify
 
-cvec("catalyst",1:2)
-cvec("catalytic.reaction",1:5)
+cvec(catalyst,1:2)
+cvec(catalytic.reaction,1:5)
+
