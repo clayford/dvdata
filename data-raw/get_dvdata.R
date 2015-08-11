@@ -122,5 +122,8 @@ cvec(catalyst,1:2)
 cvec(catalytic.reaction,1:5)
 cvec(cigarette,2:5)
 cvec(clean.wool,1)
-
+cvec(coil, 1:4)
+cvec(colorfastness, 1:2)
+cvec(cotton.spinning,1:4)
+cvec(dairy.cow,1:3)
 
