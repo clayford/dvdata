@@ -14,8 +14,10 @@ for(i in 1:length(links)){
   assign(x = dfnames[i], value = read.table(file = links[i], header=TRUE))
   save(list=dfnames[i], file = paste0("data/",dfnames[i],".rdata"),
        compress = 'xz')
+  download.file(links[i],paste0("data-raw/",dfnames[i],".txt"))
   print(cat(links[i],"\n",dfnames[i],"\n"))
 }
+
 
 # individual data frame fixes
 # fix NA
@@ -86,22 +88,39 @@ save(candle, file="data/candle.rdata")
 cvec <- function(dat,ind){
   d <- deparse(substitute(dat))
   x <- get(d)
-  x[,ind] <- lapply(x[,ind],factor)
+  if(length(ind) > 1){
+    x[,ind] <- lapply(x[,ind],factor)
+  } else {
+    x[,ind] <- factor(x[,ind])
+  }
   assign(deparse(substitute(dat)),x)
   save(list=d,file=paste0("data/", d, ".rdata"))
 }
 
 
 # quick test
-# test <- data.frame(g1=rep(1:3,3),g2=rep(1:3,3),y=rnorm(9))
-# str(test)
-# cvec(test,1:2)
-# rm(test)
-# load("data/test.rdata")
-# file.remove("data/test.rdata")
+test <- data.frame(g1=rep(1:3,3),g2=rep(1:3,3),y=rnorm(9))
+test2 <- data.frame(g1=rep(1:3,3),y=rnorm(9))
+
+str(test)
+cvec(test,1:2)
+rm(test)
+load("data/test.rdata")
+str(test)
+file.remove("data/test.rdata")
+
+str(test2)
+cvec(test2,1)
+rm(test2)
+load("data/test2.rdata")
+str(test2)
+file.remove("data/test2.rdata")
 
 # have to build package to verify
 
 cvec(catalyst,1:2)
 cvec(catalytic.reaction,1:5)
+cvec(cigarette,2:5)
+cvec(clean.wool,1)
+
 
