@@ -7,7 +7,7 @@
 \format{A data frame with 18 rows and 4 variables:
 \describe{
  \item{TC}{treatment code}
- \item{HT}{height of ribs on the roughened rod}
+ \item{HT}{height of ribs on the roughened rod - 3 levels (0.010, 0.015, 0.020 in)}
  \item{REYNO}{Reynolds number}
  \item{VELOCITY}{\eqn{ (d - 1.4) * 10^3} where d is the distance in inches
  from center of rod}

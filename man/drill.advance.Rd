@@ -25,10 +25,6 @@ factors on the rate of advance of a small stone drill. (Chapter 7, Table 7.4)
 }
 \examples{
 apply(drill.advance[,1:4],2,table) # each factor observed at 2 levels
-# set A - D as factor class
-for(i in 1:4){
-  drill.advance[[i]] <- factor(drill.advance[[i]])
-  }
 aov1 <- aov(LN_ADV ~ A + B + C + D, data=drill.advance)
 summary(aov1)
 coef(aov1)

@@ -279,13 +279,11 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 #' @examples
-#' names(catalyst) <- tolower(names(catalyst))
-#' catalyst$treat <- factor(catalyst$treat)
-#' plot(yield ~ treat, data=catalyst)
-#' qqnorm(catalyst$yield)
-#' qqline(catalyst$yield)
-#' with(catalyst, evrot(resp = yield, trt = treat))
-#' with(catalyst, tapply(yield, treat, var))
+#' plot(YIELD ~ TREAT, data=catalyst)
+#' qqnorm(catalyst$YIELD)
+#' qqline(catalyst$YIELD)
+#' with(catalyst, evrot(resp = YIELD, trt = TREAT))
+#' with(catalyst, tapply(YIELD, TREAT, var))
 "catalyst"
 
 #' Catalytic reaction
@@ -489,10 +487,6 @@
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 #' @examples
 #' apply(drill.advance[,1:4],2,table) # each factor observed at 2 levels
-#' # set A - D as factor class
-#' for(i in 1:4){
-#'   drill.advance[[i]] <- factor(drill.advance[[i]])
-#'   }
 #' aov1 <- aov(LN_ADV ~ A + B + C + D, data=drill.advance)
 #' summary(aov1)
 #' coef(aov1)
@@ -1216,9 +1210,9 @@
 #' @source \url{http://www.wright.edu/~dan.voss/bookdata/data.html}
 #' @references Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
 #' @examples
-#' with(papertowel.strength, interaction.plot(factor(A), factor(B), STRENGTH))
-#' with(papertowel.strength, interaction.plot(factor(A), factor(C), STRENGTH))
-#' with(papertowel.strength, interaction.plot(factor(B), factor(C), STRENGTH))
+#' with(papertowel.strength, interaction.plot(A, B, STRENGTH))
+#' with(papertowel.strength, interaction.plot(A, C, STRENGTH))
+#' with(papertowel.strength, interaction.plot(B, C, STRENGTH))
 "papertowel.strength"
 
 #' Peas

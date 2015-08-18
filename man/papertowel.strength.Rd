@@ -24,9 +24,9 @@ An experiment to compare relative strengths of two brands of paper towels under 
 moisture saturation and liquid type. (Chapter 7, Table 7.20)
 }
 \examples{
-with(papertowel.strength, interaction.plot(factor(A), factor(B), STRENGTH))
-with(papertowel.strength, interaction.plot(factor(A), factor(C), STRENGTH))
-with(papertowel.strength, interaction.plot(factor(B), factor(C), STRENGTH))
+with(papertowel.strength, interaction.plot(A, B, STRENGTH))
+with(papertowel.strength, interaction.plot(A, C, STRENGTH))
+with(papertowel.strength, interaction.plot(B, C, STRENGTH))
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

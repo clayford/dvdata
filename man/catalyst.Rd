@@ -21,13 +21,11 @@ An experiment that investigates the effect of four reagents and three catalysts
 on production rate in a catalyst plant. (Chapter 5, Table 5.16)
 }
 \examples{
-names(catalyst) <- tolower(names(catalyst))
-catalyst$treat <- factor(catalyst$treat)
-plot(yield ~ treat, data=catalyst)
-qqnorm(catalyst$yield)
-qqline(catalyst$yield)
-with(catalyst, evrot(resp = yield, trt = treat))
-with(catalyst, tapply(yield, treat, var))
+plot(YIELD ~ TREAT, data=catalyst)
+qqnorm(catalyst$YIELD)
+qqline(catalyst$YIELD)
+with(catalyst, evrot(resp = YIELD, trt = TREAT))
+with(catalyst, tapply(YIELD, TREAT, var))
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
